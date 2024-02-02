@@ -1,3 +1,13 @@
+/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
+:root {
+  --nav-bg-color: #FFFCF2;
+  --card-bg-color: #FFFCF2;
+  --main-bg-color: #F4F1DE;
+  --text-color: #403D39;
+  --feature-color: #eb5e28;
+  --feature-color-2: #52b73e;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,3 +50,4 @@
 .read-the-docs {
   color: #888;
 }
+
