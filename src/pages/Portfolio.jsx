@@ -4,8 +4,8 @@ import Project from "../components/UI/Project"
 const projectList = [
   {
     id: 1,
-    title: "Project 1",
-    image: "next-best-tech-blog.png",
+    title: "Next-best Tech Blog",
+    image: "./src/assets/next-best-tech-blog.png",
     gitHubLink: 'https://github.com/AmyLloyd/next-best',
     appLink: 'https://stark-spire-89547-14040d39d29b.herokuapp.com/',
     developerPractice: 'MVC'
@@ -13,7 +13,7 @@ const projectList = [
   {
       id: 2,
       title: "Keep your words- JATE text editor",
-      image: "jate.png",
+      image: "../src/assets/jate.png",
       gitHubLink: 'https://github.com/AmyLloyd/keep-your-words',
       appLink: 'https://keep-your-words.onrender.com/',
       developerPractice: 'PWA using IndexedDB'
@@ -21,7 +21,7 @@ const projectList = [
   {
       id: 3,
       title: "Quick get that down! Notetaker app",
-      image: "note-taker-app.png",
+      image: "./src/assets/note-taker-app.png",
       gitHubLink: "https://github.com/AmyLloyd/quick-get-that-down",
       appLink: "https://stormy-escarpment-29702-726705b51eaa.herokuapp.com/",
       developerPractice: 'express.js server and promises'
