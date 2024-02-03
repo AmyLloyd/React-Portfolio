@@ -15,7 +15,7 @@ function Project({ projectList }) {
                             <h5 className="card-subtitle">{project.developerPractice}</h5>
                             <a href={project.appLink} className="btn btn-primary m-1">Open App</a>
                             <a href={project.gitHubLink} className="btn btn-primary m-1"> Open GitHub Repo
-                                <span class="badge">
+                                <span className="badge">
                                     <img src='../../assets/github-mark.png'/>
                                 </span></a>
                                 

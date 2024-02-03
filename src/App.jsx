@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Nav from './components/Nav';
+
 import Header from './components/Header';
 
 function App() {
@@ -7,7 +7,6 @@ function App() {
     return (
         <div>
             <Header />
-                <Nav />
             <Outlet /> 
         </div>
     )

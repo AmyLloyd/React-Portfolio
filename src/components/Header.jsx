@@ -1,6 +1,12 @@
-export default function Heading({links}) {
+import Nav from './Nav';
+
+import '.././styles/Header.css';
+
+export default function Header({links}) {
     return (
-      <h1>Heading variable will be added here. 
-      </h1>
+      <div className="header p-2">
+              <h1 className="h1">Amy Lloyd</h1>
+              <Nav />
+      </div>
     );
 }
