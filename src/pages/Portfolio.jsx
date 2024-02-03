@@ -1,26 +1,35 @@
-import { useState } from 'react';
+import Project from "../components/UI/Project"
 
-function ProjectList() {
-  const [projectList, setProjectList] = useState([]);
+//Define array of available projects
+const projectList = [
+  {
+    id: 1,
+    title: "Project 1",
+    image: "next-best-tech-blog.png",
+    gitHubLink: 'https://github.com/AmyLloyd/next-best',
+    appLink: 'https://stark-spire-89547-14040d39d29b.herokuapp.com/',
+    developerPractice: 'MVC'
+  },
+  {
+      id: 2,
+      title: "Keep your words- JATE text editor",
+      image: "jate.png",
+      gitHubLink: 'https://github.com/AmyLloyd/keep-your-words',
+      appLink: 'https://keep-your-words.onrender.com/',
+      developerPractice: 'PWA using IndexedDB'
+  },
+  {
+      id: 3,
+      title: "Quick get that down! Notetaker app",
+      image: "note-taker-app.png",
+      gitHubLink: "https://github.com/AmyLloyd/quick-get-that-down",
+      appLink: "https://stormy-escarpment-29702-726705b51eaa.herokuapp.com/",
+      developerPractice: 'express.js server and promises'
+  }
+];
 
-  //Function to add a project
-  const addProject = (project) => {
-    console.log(
-      'File: Portfolio.jsx ~ line 9 ~ addProject ~ project', project
-    );
-    //Check to see it project is empty
-    if(!project.text {
-      return;
-    }
-    
-    //Add new project to the existing array 
-    const newProjectList = [project, ...projectList];
-    console.log(newProjectList);
-  
-    //Call setProjectList to update state including the new project
-    setProjectList(newProjectList);
-  };
-
-
-  
+function Portfolio() {
+  return <Project projectList={projectList} />;
 }
+
+export default Portfolio;
