@@ -1,5 +1,5 @@
 //https://medium.com/@ryaddev/social-media-footer-component-for-your-react-application-using-tailwindcss-97af8680a1bd
-
+//https://mdbootstrap.com/how-to/bootstrap/footer-at-bottom/#:~:text=In%20order%20for%20this%20element,bottom%20to%20the%20class%20footer%20.
 import {
     FiGithub,
     FiTwitter,
@@ -7,6 +7,8 @@ import {
     FiGlobe,
     FiYoutube,
   } from "react-icons/fi";
+
+  import '.././styles/Footer.css';
 
   const socialLinks = [
     {
@@ -38,29 +40,29 @@ import {
   
   const Footer = () => {
     return (
-      <div className="container mx-auto">
-        <div className="pt-20 sm:pt-30 pb-8 mt-20 border-t-2 border-primary-light dark:border-secondary-dark">
-          {/* Footer social links */}
-          <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
-            <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
-              Follow me
-            </p>
-            <ul className="flex gap-4 sm:gap-8">
-              {socialLinks.map((link) => (
-                <a
-                  href={link.url}
-                  target="__blank"
-                  key={link.id}
-                  className="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-300"
-                >
-                  <i className="text-xl sm:text-2xl md:text-3xl">{link.icon}</i>
-                </a>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
+        <footer class="bg-info text-center text-lg-start fixed-bottom">
+            <div className="container p-4">
+                <div className="row">
+                {/* Footer social links */}
+                <div className="text-centered">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul className="list-unstyled">
+                    {socialLinks.map((link) => (
+                        <a
+                        href={link.url}
+                        target="__blank"
+                        key={link.id}
+                        className=""
+                        >
+                        <i className="p-3 m-3">{link.icon}</i>
+                        </a>
+                    ))}
+                    </ul>
+                </div>
+                </div>
+            </div>
+      </footer>  
     );
-  };
+};
   
   export default Footer;
