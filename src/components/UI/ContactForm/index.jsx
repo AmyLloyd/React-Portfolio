@@ -11,10 +11,10 @@ function Form() {
 
     const handleInputChange = (e) => {
         const { target } = e;
-        let inputType = target.name;
-        let inputValue = target.value;
+        const inputType = target.name;
+        const inputValue = target.value;
 
-        if(inputType = 'email') {
+        if(inputType === 'email') {
             setEmail(inputValue);
         } else if (inputType === 'name') {
             setName(inputValue);
@@ -38,31 +38,44 @@ function Form() {
     };
 
     return (
-        <div className="container text-center mb-3">
-            <h1>Hello {name}</h1>
+        <div className="container mb-3">
+            <h1>Contact Form</h1>
+            <h2>Fill in the form below to get in touch</h2>
             <form className="form" onSubmit={handleFormSubmit}>
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="email"
-                />
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="name"
-                    placeholder="name"
-                />
-                <input
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="message"
-                    placeholder="message"
-                />
-                <button type="submit"></button>
+                <div className="form-floating">
+                    <label className="form-label" for="floatingInput">Name:</label>
+                    <input
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="input"
+                        placeholder="name"
+                        id="floatingInput"
+                    />
+                </div>
+                <div className="form-floating">
+                   <label for="floatingInput" className="form-label">Email:</label>
+                    <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        placeholder="email"
+                        id="floatingInput"
+                    />
+                </div>
+                <div className="form-floating">
+                    <label for="floatingTextarea" className="form-label">Message:</label>
+                    <textarea
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="message"
+                        id="floatingTextArea"
+                    />
+                </div>
+                <button type="submit" className="btn btn-success m-1 px-3">Submit</button>
             </form>
             {errorMessage && (
                 <div>
