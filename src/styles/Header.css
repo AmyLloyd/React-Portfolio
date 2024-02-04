@@ -1,0 +1,23 @@
+/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
+:root {
+    --nav-bg-color: #FFFCF2;
+    --card-bg-color: #FFFCF2;
+    --main-bg-color: #F4F1DE;
+    --text-color: #403D39;
+    --feature-color: #eb5e28;
+    --feature-color-2: #52b73e;
+  }
+
+  .header {
+    background-image: var(--bs-gradient);
+    background-color: var(--feature-color-2);
+    height: 200px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding-top: 50px;
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+  }
