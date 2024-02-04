@@ -1,5 +1,6 @@
 //https://medium.com/@ryaddev/social-media-footer-component-for-your-react-application-using-tailwindcss-97af8680a1bd
 //https://mdbootstrap.com/how-to/bootstrap/footer-at-bottom/#:~:text=In%20order%20for%20this%20element,bottom%20to%20the%20class%20footer%20.
+
 import {
     FiGithub,
     FiTwitter,
@@ -7,6 +8,8 @@ import {
     FiGlobe,
     FiYoutube,
   } from "react-icons/fi";
+
+  import './styles.css';
 
   const socialLinks = [
     {
@@ -38,12 +41,12 @@ import {
   
   const Footer = () => {
     return (
-        <footer class="bg-info text-center text-lg-start fixed-bottom">
+        <footer className="text-center footer text-lg-start fixed-bottom">
             <div className="container p-4">
                 <div className="row">
                 {/* Footer social links */}
                 <div className="text-centered">
-                    <h5 class="text-uppercase">Links</h5>
+                    <h5 className="text-uppercase">Links</h5>
                     <ul className="list-unstyled">
                     {socialLinks.map((link) => (
                         <a

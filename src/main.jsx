@@ -13,8 +13,6 @@ import ContactPage from './components/pages/Contact.jsx';
 import ResumePage from './components/pages/Resume.jsx';
 import ErrorPage from './components/pages/Error.jsx';
 
-//
-
 //Define the routes and which components respond to which URL
 const router = createBrowserRouter([
     {

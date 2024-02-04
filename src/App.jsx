@@ -6,7 +6,8 @@ function App() {
  {/*The outlet component will conditionally swap between different pages according to the URL*/}
     return (
         <div>
-            <Header />
+            <Header 
+             />
             <Outlet /> 
             <Footer />
         </div>
