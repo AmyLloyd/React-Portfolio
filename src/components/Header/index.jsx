@@ -1,8 +1,7 @@
-import Nav from './Nav';
+import Nav from '../Nav';
+import './styles.css';
 
-import '.././styles/Header.css';
-
-export default function Header({links}) {
+export default function Header({}) {
     return (
       <div className="header p-2">
               <h1 className="h1">Amy Lloyd</h1>

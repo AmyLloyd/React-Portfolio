@@ -1,4 +1,4 @@
-import Project from "../components/UI/Project"
+import Project from "../Project";
 
 //Define array of available projects
 const projectList = [

@@ -3,7 +3,7 @@ function Project({ projectList }) {
     return (
         <div className="row">
 
-            {/* Here we map over each projectList item and return a new array of `li` elements that contains each project title */}
+            {/* Here we map over each projectList item and return a new array of elements that contains each project title */}
             {/* When using map you must provide a unique key attribute to each item. Ours is `project.id` */}
 
             {projectList.map((project) => (

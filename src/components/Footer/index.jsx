@@ -8,8 +8,6 @@ import {
     FiYoutube,
   } from "react-icons/fi";
 
-  import '.././styles/Footer.css';
-
   const socialLinks = [
     {
       id: 1,
