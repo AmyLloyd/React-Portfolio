@@ -1,0 +1,30 @@
+/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
+:root {
+  --dark-bg-color: #010112ea;
+  --card-bg-color: #FFFCF2;
+  --main-bg-color: #d1cca6;
+  --text-color: #403D39;
+  --feature-color: #ebeb2d;
+}
+
+  .header {
+    height: 200px;
+  }
+  
+  .h1 {
+    margin: 0 0 -0.4rem 0;
+    padding-top: 50px;
+    text-align: left;
+    color: white;
+    font-size: 3.5rem;
+  }
+
+  .image {
+    background-image:url("/assets/pexels-rovenimagescom-949587.jpg");
+    background-size: contain;
+    background-position: center;
+    /* background-clip: padding-box; */
+    background-blend-mode:darken;
+ 
+
+  }

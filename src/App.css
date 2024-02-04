@@ -1,11 +1,14 @@
 /* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
 :root {
-  --nav-bg-color: #FFFCF2;
+  --dark-bg-color: #010112ea;
   --card-bg-color: #FFFCF2;
-  --main-bg-color: #F4F1DE;
+  --main-bg-color: #d1cca6;
   --text-color: #403D39;
-  --feature-color: #eb5e28;
-  --feature-color-2: #52b73e;
+  --feature-color: #ebeb2d;
+}
+
+body {
+  background-color: var(--main-bg-color);
 }
 
 #root {

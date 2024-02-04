@@ -2,17 +2,16 @@ import React from 'react'
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Pages that the router will use to conditionally show the appropriate views
 import App from './App.jsx';
-import AboutPage from './pages/About.jsx';
-import PortfolioPage from './pages/Portfolio.jsx';
-import ContactPage from './pages/Contact.jsx';
-import ResumePage from './pages/Resume.jsx';
-import ErrorPage from './pages/Error.jsx';
+import AboutPage from './components/pages/About.jsx';
+import PortfolioPage from './components/pages/Portfolio.jsx';
+import ContactPage from './components/pages/Contact.jsx';
+import ResumePage from './components/pages/Resume.jsx';
+import ErrorPage from './components/pages/Error.jsx';
 
 //Define the routes and which components respond to which URL
 const router = createBrowserRouter([
@@ -23,13 +22,9 @@ const router = createBrowserRouter([
       children: [
         {
           index: true,
-          path: 'about',
+          path: '',
           element: <AboutPage />,
         },
-        // {
-        //   path: 'project/:id',
-        //   element: <ProfilePage />,
-        // },
         {
           path: 'portfolio',
           element: <PortfolioPage />,
