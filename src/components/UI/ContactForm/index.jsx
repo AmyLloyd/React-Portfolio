@@ -43,7 +43,7 @@ function Form() {
             <h2>Fill in the form below to get in touch</h2>
             <form className="form" onSubmit={handleFormSubmit}>
                 <div className="form-floating">
-                    <label className="form-label" for="floatingInput">Name:</label>
+                    <label className="form-label me-3" for="floatingInput">Name:</label>
                     <input
                         value={name}
                         name="name"
