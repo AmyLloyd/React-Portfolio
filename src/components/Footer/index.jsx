@@ -3,63 +3,45 @@
 
 import {
     FiGithub,
-    FiTwitter,
     FiLinkedin,
-    FiGlobe,
-    FiYoutube,
   } from "react-icons/fi";
 
-  import './styles.css';
+import './styles.css';
 
   const socialLinks = [
     {
       id: 1,
-      icon: <FiGlobe />,
-      url: "https://www.stoman.me/",
-    },
-    {
-      id: 2,
       icon: <FiGithub />,
-      url: "https://github.com/",
-    },
-    {
-      id: 3,
-      icon: <FiTwitter />,
-      url: "https://twitter.com/",
+      url: "https://github.com/AmyLloyd",
     },
     {
       id: 4,
       icon: <FiLinkedin />,
-      url: "https://www.linkedin.com/in/",
-    },
-    {
-      id: 5,
-      icon: <FiYoutube />,
-      url: "https://www.youtube.com/c/",
+      url: "https://www.linkedin.com/in/amy-lloyd-2a1028135/",
     },
   ];
   
   const Footer = () => {
     return (
-        <footer className="text-center footer text-lg-start fixed-bottom">
-            <div className="container p-4">
+        <footer className="footer fixed-bottom">
+            <div className="container p-1">
                 <div className="row">
                 {/* Footer social links */}
-                <div className="text-centered">
-                    <h5 className="text-uppercase">Links</h5>
-                    <ul className="list-unstyled">
-                    {socialLinks.map((link) => (
-                        <a
-                        href={link.url}
-                        target="__blank"
-                        key={link.id}
-                        className=""
-                        >
-                        <i className="p-3 m-3">{link.icon}</i>
-                        </a>
-                    ))}
-                    </ul>
-                </div>
+                  <div className="text-center">
+                      <h5 className="">Links</h5>
+                      <ul className="list-unstyled">
+                      {socialLinks.map((link) => (
+                          <a
+                          href={link.url}
+                          target="__blank"
+                          key={link.id}
+                          className=""
+                          >
+                          <i className="px-3 py-1 mx-3 my-1">{link.icon}</i>
+                          </a>
+                      ))}
+                      </ul>
+                  </div>
                 </div>
             </div>
       </footer>  
