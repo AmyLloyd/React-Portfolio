@@ -26,5 +26,5 @@
     background-size: contain;
     background-position: center;
     /* background-clip: padding-box; */
-    background-blend-mode:darken;
+    background-blend-mode:exclusion;
   }
