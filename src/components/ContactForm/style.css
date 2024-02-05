@@ -1,0 +1,18 @@
+:root {
+    --dark-bg-color: #010112ea;
+    --text-color: #FFFCF2;
+    --main-bg-color: #d1cca6;
+    --secondary-text-color: #403D39;
+    --feature-color: #ebeb2d;
+    --transparent-bg: #e4ebeb47;
+}
+
+.field {
+    width: 80%;
+    height:fit-content;
+}
+
+.button {
+    background-color: var(--feature-color);
+
+}

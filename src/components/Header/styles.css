@@ -9,12 +9,6 @@
   --transparent-bg: #e4ebeb47;
 }
 
-.footer {
-  background-color: var(--dark-bg-color);
-  color: var(--text-color);
-  text-transform:capitalize;
-}
-
   .header {
     height: 200px;
   }
@@ -33,6 +27,4 @@
     background-position: center;
     /* background-clip: padding-box; */
     background-blend-mode:darken;
- 
-
   }

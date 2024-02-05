@@ -39,43 +39,43 @@ function Form() {
 
     return (
         <div className="container mb-3">
-            <h1>Contact Form</h1>
-            <h2>Fill in the form below to get in touch</h2>
+            <h2>Contact Form</h2>
+            <h5>Fill in the form below to get in touch</h5>
             <form className="form" onSubmit={handleFormSubmit}>
-                <div className="form-floating">
-                    <label className="form-label me-3" for="floatingInput">Name:</label>
+                <div className="">
+
                     <input
                         value={name}
                         name="name"
                         onChange={handleInputChange}
                         type="input"
-                        placeholder="name"
-                        id="floatingInput"
+                        placeholder="Name"
+                        className="field"
                     />
                 </div>
-                <div className="form-floating">
-                   <label for="floatingInput" className="form-label">Email:</label>
+                <div className="">
+
                     <input
                         value={email}
                         name="email"
                         onChange={handleInputChange}
                         type="email"
-                        placeholder="email"
-                        id="floatingInput"
+                        placeholder="Email"
+                        className="field"
                     />
                 </div>
-                <div className="form-floating">
-                    <label for="floatingTextarea" className="form-label">Message:</label>
+                <div className="">
+
                     <textarea
                         value={message}
                         name="message"
                         onChange={handleInputChange}
                         type="text"
-                        placeholder="message"
-                        id="floatingTextArea"
+                        placeholder="Message"
+                        className="field"
                     />
                 </div>
-                <button type="submit" className="btn btn-success m-1 px-3">Submit</button>
+                <button type="submit" className="btn button m-1 px-3">Submit</button>
             </form>
             {errorMessage && (
                 <div>
