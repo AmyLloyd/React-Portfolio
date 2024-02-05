@@ -1,9 +1,9 @@
 /* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
 :root {
     --dark-bg-color: #010112ea;
-    --card-bg-color: #FFFCF2;
+    --text-color: #FFFCF2;
     --main-bg-color: #d1cca6;
-    --text-color: #403D39;
+    --secondary-text-color: #403D39;
     --feature-color: #ebeb2d;
     --transparent-bg: #e4ebeb47;
   }

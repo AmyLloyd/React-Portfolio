@@ -5,7 +5,7 @@ import Header from './components/Header';
 function App() {
  {/*The outlet component will conditionally swap between different pages according to the URL*/}
     return (
-        <div>
+        <div className="body">
             <Header 
              />
             <Outlet /> 
