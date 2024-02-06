@@ -1,11 +1,37 @@
-# React + Vite
+# Portfolio Application
 
-https://www.youtube.com/watch?v=QaZ2CoYFO60 Code Pro provided a tutorial showing how to download a component in React. 
+This is a Portfolio website that introduces a developer to future employers and other colleagues in the field. It enables a developer to show their expertise through a portfolio of work that is easily accessible by links. The Contact opens a quick line of communication so that there is no delay or lost email addresses. The contact form includes error messages to the user so they understand how to fix their contact form submission.
 
+## Table of Contents
+- [Features](#features)
+- [Technologies](#teachnolgies)
+- [Usage](#usage)
+- [Contribution](#contribution)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Downloadable resume
+- React structure and components
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Front-end: HTML, CSS, JavaScript, React
+
+## Usage
+
+1. Open the application in your web browser at: https://loquacious-sorbet-06e30f.netlify.app/
+![Portfolio-screenshot](./public//assets//Portfolio-screenshot.png)
+2. Read the About me. 
+3. Fill in the contact form to get in touch through the Contacts page. 
+4. Explore my recent projects using the links on the Portfolio Page. 
+5. Download the resume for future reference!
+
+## Contribution
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m "Add your message here"`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request
+

@@ -8,7 +8,7 @@ const projectList = [
     image: "/assets/next-best-tech-blog.png",
     gitHubLink: 'https://github.com/AmyLloyd/next-best',
     appLink: 'https://stark-spire-89547-14040d39d29b.herokuapp.com/',
-    developerPractice: 'MVC'
+    developerPractice: 'Showing skills using: MVC'
   },
   {
       id: 2,
@@ -16,7 +16,7 @@ const projectList = [
       image: "/assets/jate.png",
       gitHubLink: 'https://github.com/AmyLloyd/keep-your-words',
       appLink: 'https://keep-your-words.onrender.com/',
-      developerPractice: 'PWA using IndexedDB'
+      developerPractice: 'Showing skills using: PWA using IndexedDB'
   },
   {
       id: 3,
@@ -24,7 +24,15 @@ const projectList = [
       image: "/assets/note-taker-app.png",
       gitHubLink: "https://github.com/AmyLloyd/quick-get-that-down",
       appLink: "https://stormy-escarpment-29702-726705b51eaa.herokuapp.com/",
-      developerPractice: 'express.js server and promises'
+      developerPractice: 'Showing skills using: express.js server and promises'
+  },
+  {
+    id:4,
+    title: "Portfolio",
+    image: "/assets/Portfolio-screenshot.png",
+    gitHubLink: "https://github.com/AmyLloyd/react-portfolio",
+    appLink:"https://loquacious-sorbet-06e30f.netlify.app/",
+    developerPractice: 'Showing skills using: ReactJS'
   }
 ];
 

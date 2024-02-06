@@ -30,7 +30,7 @@ export default function Resume() {
         <div className="container" ref={pdfRef}>
           <h2 >Resume</h2>
           <div className="row text-start mt-3"> 
-            <div className="col-6"> 
+            <div className="col-sm-6"> 
               <h4> Front-end Proficiencies</h4>
               <ul>
                 <li>HTML</li>
@@ -42,7 +42,7 @@ export default function Resume() {
                 <li>Bootstrap</li>
               </ul>
             </div>
-            <div className="col-6">  
+            <div className="col-sm-6">  
               <h4>Back-end Proficiencies</h4>
               <ul>
                 <li>APIs</li>
