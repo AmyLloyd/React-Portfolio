@@ -28,7 +28,6 @@ body {
   padding: 2px;
 }
 
-
 #root {
   /* max-width: 1280px; */
   /* margin: 0 auto; */
@@ -57,13 +56,12 @@ body {
   color: white;
 }
 
-
 footer {
-  position: relative;
-  left: 0;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  color: white;
+  background-color: #F8F9FA;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -74,5 +72,14 @@ h2 {
 
 .button {
   background-color: var(--feature-color);
+  border-color: var(--feature-color);
+  color:black;
 }
 
+.css-img {
+  min-width: 30%;
+  max-width: 40%;
+  height: auto;
+  padding: 2px;
+  margin-top: 30px;
+}

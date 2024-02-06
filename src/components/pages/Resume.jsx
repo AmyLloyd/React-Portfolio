@@ -27,10 +27,10 @@ export default function Resume() {
     };
     return (
       <>
-        <div className="container" re={pdfRef}>
+        <div className="container" ref={pdfRef}>
           <h2 >Resume</h2>
           <div className="row text-start mt-3"> 
-            <div className="col-6"> 
+            <div className="col-sm-6"> 
               <h4> Front-end Proficiencies</h4>
               <ul>
                 <li>HTML</li>
@@ -42,7 +42,7 @@ export default function Resume() {
                 <li>Bootstrap</li>
               </ul>
             </div>
-            <div className="col-6">  
+            <div className="col-sm-6">  
               <h4>Back-end Proficiencies</h4>
               <ul>
                 <li>APIs</li>
@@ -55,9 +55,7 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <div className="row text-center mt-4">
-          <button className="btn button " onClick={downloadPDF}>Download Resume</button>
-        </div>
+        <button className="btn btn-primary button" type="submit" onClick={downloadPDF}>Download Resume</button>
       </>
       
     );
