@@ -11,7 +11,7 @@
     return (
       <>
         {targetBreakpoint && (
-          <Navbar expand={targetBreakpoint} className="bg-body-tertiary mb-3 navbar-bg">
+          <Navbar expand={targetBreakpoint} className="bg-body-tertiary fixed-top mb-6 navbar-bg">
             <Container fluid>
               <Navbar.Brand href="#"></Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${targetBreakpoint}`} />
