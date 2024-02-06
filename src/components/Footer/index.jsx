@@ -31,12 +31,11 @@ import './styles.css';
   
   const Footer = () => {
     return (
-        <footer className="footer ">
-            <div className="container p-1 mt-3">
+        <footer className="footer">
+            <div className="container p-1 mt-1 mb-1">
                 <div className="row">
                 {/* Footer social links */}
-                  <div className="text-center">
-                      <h5 className="">Links</h5>
+                  <div className="text-center pb-1">
                       <ul className="list-unstyled">
                       {socialLinks.map((link) => (
                           <a
@@ -45,7 +44,7 @@ import './styles.css';
                           key={link.id}
                           className=""
                           >
-                          <i className="px-3 py-1 mx-3 my-1">{link.icon}</i>
+                          <i className="px-2 py-1 mx-2 my-1">{link.icon}</i>
                           </a>
                       ))}
                       </ul>

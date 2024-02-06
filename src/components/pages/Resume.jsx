@@ -55,9 +55,7 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <div className="row text-center mt-4 pb-10">
-          <button className="btn button btn-primary" onClick={downloadPDF}>Download Resume</button>
-        </div>
+        <button className="btn btn-primary button" type="submit" onClick={downloadPDF}>Download Resume</button>
       </>
       
     );
