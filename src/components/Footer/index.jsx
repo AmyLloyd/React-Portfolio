@@ -4,6 +4,7 @@
 import {
     FiGithub,
     FiLinkedin,
+
   } from "react-icons/fi";
 
 import './styles.css';
@@ -15,16 +16,17 @@ import './styles.css';
       url: "https://github.com/AmyLloyd",
     },
     {
-      id: 4,
+      id: 2,
       icon: <FiLinkedin />,
       url: "https://www.linkedin.com/in/amy-lloyd-2a1028135/",
-    },
+    }
+
   ];
   
   const Footer = () => {
     return (
-        <footer className="footer fixed-bottom">
-            <div className="container p-1">
+        <footer className="footer">
+            <div className="container p-1 mt-3">
                 <div className="row">
                 {/* Footer social links */}
                   <div className="text-center">

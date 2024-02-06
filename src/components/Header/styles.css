@@ -1,30 +1,32 @@
 /* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
-/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
 :root {
-  --dark-bg-color: #010112ea;
+  --dark-bg-color: #2d2937ea;
+  --medium-bg-color: #0a0a2fd0;
   --text-color: #FFFCF2;
   --main-bg-color: #d1cca6;
   --secondary-text-color: #403D39;
   --feature-color: #ebeb2d;
   --transparent-bg: #e4ebeb47;
+  --button-bg: #eb9c2dd1;
 }
 
-  .header {
-    height: 200px;
-  }
+.header {
+  height: 150px;
+}
   
-  .h1 {
-    margin: 0 0 -0.4rem 0;
-    padding-top: 50px;
-    text-align: left;
-    color: white;
-    font-size: 3.5rem;
-  }
+.h1 {
+  margin: 0 0 -0.4rem 0;
+  padding-top: 80px;
+  text-align: left;
+  color: white;
+  font-size: 3.5rem;
+}
 
-  .image {
-    background-image:url("/assets/pexels-rovenimagescom-949587.jpg");
-    background-size: contain;
-    background-position: center;
-    /* background-clip: padding-box; */
-    background-blend-mode:exclusion;
-  }
+.image {
+  background-image:url("/assets/pexels-rovenimagescom-949587.jpg");
+  background-size: contain;
+  background-position: center;
+  /* background-clip: padding-box; */
+  background-repeat:round;
+  background-origin: padding-box;
+}

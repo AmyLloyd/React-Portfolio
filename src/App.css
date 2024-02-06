@@ -1,22 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
 /* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
 :root {
-  --dark-bg-color: #010112ea;
-  --text-color: #f7f292;
-  --main-bg-color: #f3f6f6;
-  --secondary-color: #403D39;
+  --dark-bg-color: #2d2937ea;
+  --medium-bg-color: #0a0a2fd0;
+  --text-color: #FFFCF2;
+  --main-bg-color: #d1cca6;
+  --secondary-text-color: #403D39;
   --feature-color: #ebeb2d;
   --transparent-bg: #e4ebeb47;
   --button-bg: #eb9c2dd1;
 }
 
-.main {
+body {
+  margin: 0;
+  display: block;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
   background-color: var(--main-bg-color);
   padding: 2px;
 }
 
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
   padding: 0;
   text-align: center;
 }
@@ -25,18 +40,6 @@
   height: 3em;
   padding: 0.5em;
 
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
 }
 
 .card {
@@ -52,6 +55,24 @@
   border-color: var(--main-bg-color);
   border-width: 0.5px;
   color: white;
- 
-  
 }
+
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background-color: var(--feature-color);
+}
+

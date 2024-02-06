@@ -7,14 +7,11 @@ import './App.css'
 function App() {
  {/*The outlet component will conditionally swap between different pages according to the URL*/}
     return (
-        <div>
-            <Header 
-             />
-             <div className="main">
-                <Outlet /> 
-             </div>
+        <>
+            <Header/>
+            <Outlet /> 
             <Footer />
-        </div>
+        </>
     )
 };
 
