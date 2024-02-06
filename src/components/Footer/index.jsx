@@ -3,9 +3,10 @@
 
 import {
     FiGithub,
-    FiLinkedin,
-
+    FiLinkedin
   } from "react-icons/fi";
+
+import { FaStackOverflow } from "react-icons/fa6";
 
 import './styles.css';
 
@@ -19,13 +20,18 @@ import './styles.css';
       id: 2,
       icon: <FiLinkedin />,
       url: "https://www.linkedin.com/in/amy-lloyd-2a1028135/",
+    },
+    {
+      id: 3,
+      icon: <FaStackOverflow />,
+      url: "https://stackoverflow.com/users/23352670/alloyd"
     }
 
   ];
   
   const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer ">
             <div className="container p-1 mt-3">
                 <div className="row">
                 {/* Footer social links */}

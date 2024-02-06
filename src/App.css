@@ -23,11 +23,10 @@ body {
   display: block;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 92vh;
   background-color: var(--main-bg-color);
   padding: 2px;
 }
-
 
 #root {
   /* max-width: 1280px; */
@@ -58,13 +57,20 @@ body {
 }
 
 
-footer {
+/* footer {
   position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
   text-align: center;
+} */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #F8F9FA;
 }
 
 h2 {
@@ -76,3 +82,15 @@ h2 {
   background-color: var(--feature-color);
 }
 
+
+
+.css-img {
+  max-width: 5%;
+  min-width: 80px;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap:wrap;
+}

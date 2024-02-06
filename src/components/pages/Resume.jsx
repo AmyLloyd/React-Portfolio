@@ -27,7 +27,7 @@ export default function Resume() {
     };
     return (
       <>
-        <div className="container" re={pdfRef}>
+        <div className="container" ref={pdfRef}>
           <h2 >Resume</h2>
           <div className="row text-start mt-3"> 
             <div className="col-6"> 
@@ -55,8 +55,8 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <div className="row text-center mt-4">
-          <button className="btn button " onClick={downloadPDF}>Download Resume</button>
+        <div className="row text-center mt-4 pb-10">
+          <button className="btn button btn-primary" onClick={downloadPDF}>Download Resume</button>
         </div>
       </>
       

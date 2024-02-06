@@ -3,24 +3,73 @@ import { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function Form() {
-    const [email, setEmail] = useState('');
-    const [name, setName] = useState('');
-    const [message, setMessage] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [name, setName] = useState('');
+    // const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
-    const handleInputChange = (e) => {
-        const { target } = e;
-        const inputType = target.name;
-        const inputValue = target.value;
+    const [formState, setFormState] = useState({
+        name: '',
+        email: '',
+        message: '',
+      });
 
-        if(inputType === 'email') {
-            setEmail(inputValue);
-        } else if (inputType === 'name') {
-            setName(inputValue);
-        } else{
-            setMessage(inputValue);
-        };
-    };
+
+    const handleChange = (e) => {
+        if (e.target.name === 'email') {
+          const isValid = validateEmail(e.target.value);
+          if (!isValid) {
+            setErrorMessage('Your email is invalid.');
+          } else {
+            setErrorMessage('');
+          }
+        } else {
+          if (!e.target.value.length) {
+            setErrorMessage(`${e.target.name} is required.`);
+          } else {
+            setErrorMessage('');
+          }
+        }
+        if (!errorMessage) {
+          setFormState({ ...formState, [e.target.name]: e.target.value });
+          console.log('Handle Form', formState);
+        }
+      };
+
+    // const handleInputChange = (e) => {
+    //     e.preventDefault();
+       
+    //     const { target } = e;
+    //     const inputType = target.name;
+    //     const inputValue = target.value;
+
+
+        
+           
+    //     if(inputType === 'email') {
+    //         if(!validateEmail(inputValue)) {
+
+    //             setErrorMessage('Enter a valid email using @');
+                
+    //         } else if (!email || !message || !name) {
+    //             setErrorMessage('All fields must be complete');
+                
+    //         } else {            
+    //         setEmail(inputValue)};
+    //     } else if (inputType === 'name') {
+    //         if (!email || !message || !name) {
+    //         setErrorMessage('All fields must be complete');
+    //         } 
+    //         else {
+    //         setName(inputValue)};
+    //     } else{
+    //         if (!email || !message || !name) {
+    //         setErrorMessage('All fields must be complete');
+    //         } 
+    //         else {
+    //         setMessage(inputValue)};
+    //     };
+    // };
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
@@ -28,6 +77,7 @@ function Form() {
         if (!validateEmail(email) || !name || !message) {
             setErrorMessage("All fields must be complete");
             return;
+        
         }
         alert(`Hello ${name}`);
 
@@ -41,34 +91,34 @@ function Form() {
             <h2>Contact Form</h2>
             <h5>Fill in the form below to get in touch</h5>
             <form className="form" onSubmit={handleFormSubmit}>
-                <div className="">
+                <div >
 
                     <input
-                        value={name}
+                  
                         name="name"
-                        onChange={handleInputChange}
+                        onBlur={handleChange}
                         type="input"
                         placeholder="Name"
                         className="field"
                     />
                 </div>
-                <div className="">
+                <div >
 
                     <input
-                        value={email}
+            
                         name="email"
-                        onChange={handleInputChange}
+                        onBlur={handleChange}
                         type="email"
                         placeholder="Email"
                         className="field"
                     />
                 </div>
-                <div className="">
+                <div>
 
                     <textarea
-                        value={message}
+             
                         name="message"
-                        onChange={handleInputChange}
+                        onBlur={handleChange}
                         type="text"
                         placeholder="Message"
                         className="field"
