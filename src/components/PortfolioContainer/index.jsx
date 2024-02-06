@@ -33,6 +33,22 @@ const projectList = [
     gitHubLink: "https://github.com/AmyLloyd/react-portfolio",
     appLink:"https://loquacious-sorbet-06e30f.netlify.app/",
     developerPractice: 'Showing skills using: ReactJS'
+  },
+  {
+    id:5,
+    title: "Uquiz",
+    image: "/assets/uquiz-screenshot.png",
+    gitHubLink: "https://github.com/danield001/UQuiz",
+    appLink: "https://uquiz-app-89fe7511a64b.herokuapp.com/",
+    developerPractice: "Showing skills using: MVC and working in teams"
+  },
+  {
+    id:6,
+    title: "Shop-online",
+    image: "/assets/13-orm-homework-demo-01.gif",
+    gitHubLink: "https://github.com/AmyLloyd/shop-online",
+    appLink: "",
+    developerPractice: "Showing skills using: Object Relational Mapping"
   }
 ];
 
