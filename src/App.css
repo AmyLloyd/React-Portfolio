@@ -13,7 +13,7 @@
   --secondary-text-color: #403D39;
   --feature-color: #ebeb2d;
   --transparent-bg: #e4ebeb47;
-  --button-bg: #eb9c2dd1;
+  --button-bg: #E94F37;
 
 }
 
@@ -97,6 +97,7 @@ p {
   color: var(--text-color);
   text-align:left;
   margin-top: 2rem;
+  font-size: smaller;
 }
 
 .feature-button {
