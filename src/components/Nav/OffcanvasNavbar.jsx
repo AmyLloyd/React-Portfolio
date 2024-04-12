@@ -13,7 +13,7 @@
         {targetBreakpoint && (
           <Navbar expand={targetBreakpoint} className="bg-body-tertiary fixed-top mb-6 navbar-bg">
             <Container fluid>
-              <Navbar.Brand href="#"></Navbar.Brand>
+              <Navbar.Brand href="#" className="brand">Amy Lloyd</Navbar.Brand>
               <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${targetBreakpoint}`} />
               <Navbar.Offcanvas
                 id={`offcanvasNavbar-expand-${targetBreakpoint}`}

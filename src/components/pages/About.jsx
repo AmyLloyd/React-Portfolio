@@ -43,23 +43,12 @@
 //   );
 // }
 
+import AboutContainer from "../AboutContainer";
+
 export default function About() {
   return (
-    <div className="row">
-      {/*<div className="col-sm-6 col-md-6 col-lg-4">*/}
-        {/* Column for the image */}
-        {/* <img className="css-img mx-auto" src="/assets/headshot-filmstyle.jpg" alt="Headshot" /> */}
-     {/* </div>*/}
-      <div className="ms-2  p-5">
-        {/* Column for the paragraph */}
-        <div>
-          <p>
-            Hi! I'm Amy!
-          </p>
-          <p> I am a Full stack developer with fast-growing skills. I enjoy being involved in a project from its inception to completion. I love to apply problem solving skills and creativity to meet the design needs of clients. I am a great team player who communicates well with colleagues and clients. </p>
-          <p> Check out my portfolio page!</p>
-        </div>
-      </div>
-    </div>
+    <>
+      <AboutContainer/>     
+    </> 
   );
 }

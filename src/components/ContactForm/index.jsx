@@ -124,7 +124,7 @@ function Form() {
                         className="field"
                     />
                 </div>
-                <button type="submit" className="btn button m-1 px-3">Submit</button>
+                <button type="submit" className="btn feature-button m-1 px-3">Submit</button>
             </form>
             {errorMessage && (
                 <div>

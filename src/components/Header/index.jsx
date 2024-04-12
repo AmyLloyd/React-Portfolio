@@ -3,9 +3,8 @@ import './styles.css';
 
 export default function Header({}) {
     return (
-      <div className="header image ">
+      <div className="header">
               <Nav />
-              <h1 className="h1">Amy Lloyd</h1>
       </div>
     );
 }

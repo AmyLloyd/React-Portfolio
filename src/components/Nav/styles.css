@@ -1,12 +1,13 @@
 /* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
 :root {
     --dark-bg-color: #2d2937ea;
-    --medium-bg-color: #0a0a2fd0;
+    --medium-bg-color: #625f77;
     --text-color: #FFFCF2;
-    --main-bg-color: #d1cca6;
+    --main-bg-color: #f3eed0;
     --secondary-text-color: #403D39;
     --feature-color: #ebeb2d;
     --transparent-bg: #e4ebeb47;
+    --nav-bg:rgb(248, 248, 248);
     --button-bg: #eb9c2dd1;
     --transparent-orange: #eb9c2d7e;
   }
@@ -16,6 +17,9 @@
 }
 
 .navbar-bg {
-    background-color: var(--transparent-bg)!important;
+    background-color: var(--nav-bg)!important;
 }
 
+.button-radius {
+    border-radius: 5px;;
+}

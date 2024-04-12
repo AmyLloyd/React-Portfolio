@@ -1,7 +1,7 @@
 /* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
 :root {
     --dark-bg-color: #2d2937ea;
-    --medium-bg-color: #0a0a2fd0;
+    --medium-bg-color: #545454;
     --text-color: #FFFCF2;
     --main-bg-color: #d1cca6;
     --secondary-text-color: #403D39;

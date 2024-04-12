@@ -10,10 +10,10 @@ export default function Nav() {
   return (
     <Navbar
       links={[
-        <Link key={1} className={location.state === 'about' ? 'nav-link active' : 'nav-link'} to="/" state="about" >About Me</Link>,
-        <Link key={2} className={location.state === 'portfolio' ? 'nav-link active' : 'nav-link'} to="/portfolio" state="portfolio">Portfolio</Link>,
-        <Link key={3} className={location.state === 'contact' ? 'nav-link active' : 'nav-link'} to="/contact" state="contact">Contact Me</Link>,
-        <Link key={4} className={location.state === 'resume' ? 'nav-link active' : 'nav-link'} to="/resume" state="resume">Resume</Link>,
+        <Link key={1} className={location.state === 'about' ? 'nav-link active button-radius' : 'nav-link button-radius'} to="/" state="about" >About Me</Link>,
+        <Link key={2} className={location.state === 'portfolio' ? 'nav-link active button-radius' : 'nav-link button-radius'} to="/portfolio" state="portfolio">Portfolio</Link>,
+        <Link key={3} className={location.state === 'contact' ? 'nav-link active button-radius' : 'nav-link button-radius'} to="/contact" state="contact">Contact Me</Link>,
+        <Link key={4} className={location.state === 'resume' ? 'nav-link active button-radius' : 'nav-link button-radius'} to="/resume" state="resume">Resume</Link>,
       ]}
     />
   );
