@@ -88,8 +88,8 @@ function Form() {
 
     return (
         <div className="container mb-3">
-            <h2>Contact Form</h2>
-            <h5>Fill in the form below to get in touch</h5>
+            <h1>Contact Form</h1>
+            <p>Fill in the form below to get in touch</p>
             <form className="form" onSubmit={handleFormSubmit}>
                 <div >
 

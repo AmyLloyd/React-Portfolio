@@ -32,8 +32,8 @@ import './styles.css';
   const Footer = () => {
     return (
         <footer className="footer">
-            <div className="container p-1 mt-1 mb-1">
-                <div className="row">
+            <div className="p-1 mt-1 mb-1">
+                <div>
                 {/* Footer social links */}
                   <div className="text-center pb-1">
                       <ul className="list-unstyled">

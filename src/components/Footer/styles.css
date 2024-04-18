@@ -1,18 +1,11 @@
-/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
-:root {
-  /* --dark-bg-color: #2d2937ea; */
-  --dark-bg-color: #545454;
-  --medium-bg-color: #545454;
-  --text-color: #FFFCF2;
-  --main-bg-color: #f3eed0;
-  --secondary-text-color: #403D39;
-  --feature-color: #ebeb2d;
-  --transparent-bg: #e4ebeb47;
-  --button-bg: #eb9c2dd1;
-}
-
 .footer {
   background-color: var(--dark-bg-color);
   color: var(--text-color);
   text-transform:capitalize;
-}
+  margin-left:-1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+};

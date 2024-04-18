@@ -4,23 +4,24 @@
   padding: 0;
 }
 
-/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
 :root {
-  --dark-bg-color: #2d2937ea;
+  --dark-bg-color: #464545;
   --medium-bg-color: #545454;
   --text-color: #FFFCF2;
-  --main-bg-color: #f3eed0;
+  --main-bg-color: #545454;
   --secondary-text-color: #403D39;
   --feature-color: #ebeb2d;
   --transparent-bg: #e4ebeb47;
   --button-bg: #E94F37;
-
+  --button-bg1: #eb9c2dd1;
+  --transparent-orange: #eb9c2d7e;
+  --nav-bg:rgb(248, 247, 247);
 }
 
 body {
   margin-top:100px;
-  margin-left:1rem;
-  margin-right:1rem;
+  margin-left:0.5rem;
+  margin-right:0.5rem;
   margin-bottom:3rem;
   display: block;
   place-items: center;
@@ -52,6 +53,18 @@ body {
   text-shadow: 2px 2px 8px white;
 }
 
+.footer {
+  background-color: var(--dark-bg-color);
+  color: var(--text-color);
+  text-transform:capitalize;
+  margin-left:-1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+};
+
 .card {
   padding: 2em;
 }
@@ -65,18 +78,11 @@ body {
   border-color: var(--main-bg-color);
   border-width: 0.5px;
   color: white;
+  font-size: small;
   border-radius:5px;
-  padding:5px;
-  margin:20px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #F8F9FA;
-  margin-top: 30px;
-  text-align: center;
+  height: 50px;
+  text-wrap:wrap;
+  margin:3px;
 }
 
 h2 {
@@ -88,16 +94,26 @@ h2 {
 
 h1, h2, h3, h4 {
   color: var(--text-color);
-  text-align: left;
-  font-family:'Josefin Sans', serif;
+  text-align: left;  
+}
+
+h1 {
+  font-family:'Playfair display', sans-serif;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  color:white;
+}
+
+h2, h3, h4 {
+  font-family: 'Lato', serif;
 }
 
 p {
-  font-family: 'Montserrat', serif;
+  font-family:'Montserrat', serif;
   color: var(--text-color);
   text-align:left;
   margin-top: 2rem;
-  font-size: smaller;
+  font-size: medium;
 }
 
 .feature-button {

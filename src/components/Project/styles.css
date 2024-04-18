@@ -1,16 +1,9 @@
-/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
-:root {
-    --dark-bg-color: #2d2937ea;
-    --medium-bg-color: #545454;
-    --text-color: #FFFCF2;
-    --main-bg-color: #d1cca6;
-    --secondary-text-color: #403D39;
-    --feature-color: #ebeb2d;
-    --transparent-bg: #e4ebeb47;
-    --button-bg: #eb9c2dd1;
-  }
-
 .css-card {
-    background-color: var(--medium-bg-color);
-}
+    background-color:var(--dark-bg-color);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.2), 0 6px 20px 0 rgba(239, 235, 235, 0.19);
+    padding: 0!important;
+    border: none;
+};
+
 
