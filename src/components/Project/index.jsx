@@ -10,7 +10,7 @@ function Project({ projectList }) {
 
             {projectList.map((project) => (
                 <div className="col-sm-6" key={project.id}>
-                    <div className="card css-card text-white m-2 p-2">
+                    <div className="card css-card m-4 p-4">
                         <img src={project.image} className="card-img-top" alt="App screenshot" />
                         <div className="card-body">
                             <h3 className="card-title">{project.title}</h3>
