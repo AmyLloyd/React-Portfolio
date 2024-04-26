@@ -16,8 +16,8 @@ function Project({ projectList }) {
                             <h3 className="card-title">{project.title}</h3>
                             <p className="card-subtitle">{project.developerPractice}</p>
                             <div>
-                                <a href={project.appLink} className="btn css-button">Open App</a>
-                                <a href={project.gitHubLink} className="btn css-button"> Open GitHub Repo
+                                <a href={project.appLink} className="btn card-button">Open App</a>
+                                <a href={project.gitHubLink} className="btn card-button"> Open GitHub Repo
                                     <span>
                                         <img src='../../assets/github-mark.png' className="logo"/>
                                     </span>

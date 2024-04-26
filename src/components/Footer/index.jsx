@@ -21,11 +21,11 @@ import './styles.css';
       icon: <FiLinkedin />,
       url: "https://www.linkedin.com/in/amy-lloyd-2a1028135/",
     },
-    {
-      id: 3,
-      icon: <FaStackOverflow />,
-      url: "https://stackoverflow.com/users/23352670/alloyd"
-    }
+    // {
+    //   id: 3,
+    //   icon: <FaStackOverflow />,
+    //   url: "https://stackoverflow.com/users/23352670/alloyd"
+    // }
 
   ];
   
