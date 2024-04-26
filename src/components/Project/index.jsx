@@ -10,14 +10,14 @@ function Project({ projectList }) {
 
             {projectList.map((project) => (
                 <div className="col-sm-6" key={project.id}>
-                    <div className="card css-card text-white m-2 p-2">
+                    <div className="card css-card m-4 p-4">
                         <img src={project.image} className="card-img-top" alt="App screenshot" />
                         <div className="card-body">
                             <h3 className="card-title">{project.title}</h3>
                             <p className="card-subtitle">{project.developerPractice}</p>
                             <div>
-                                <a href={project.appLink} className="btn css-button">Open App</a>
-                                <a href={project.gitHubLink} className="btn css-button"> Open GitHub Repo
+                                <a href={project.appLink} className="btn card-button">Open App</a>
+                                <a href={project.gitHubLink} className="btn card-button"> Open GitHub Repo
                                     <span>
                                         <img src='../../assets/github-mark.png' className="logo"/>
                                     </span>

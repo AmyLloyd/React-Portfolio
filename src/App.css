@@ -11,6 +11,7 @@
   --main-bg-color: #545454;
   --secondary-text-color: #403D39;
   --feature-color: #ebeb2d;
+  --feature-color2: #3feb8f;
   --transparent-bg: #e4ebeb47;
   --button-bg: #E94F37;
   --button-bg1: #eb9c2dd1;
@@ -73,16 +74,29 @@ body {
   color: #888;
 }
 
-.css-button {
+.card-button {
   background-color:var(--transparent-bg);
   border-color: var(--main-bg-color);
   border-width: 0.5px;
-  color: white;
+  color: black;
   font-size: small;
   border-radius:5px;
   height: 50px;
   text-wrap:wrap;
   margin:3px;
+}
+
+.feature-button {
+  background-color:var(--feature-color2)!important;  
+  border:none;
+  color:var(--secondary-text-color);
+  text-shadow: 1px 1px 1px white;
+  font-size: small;
+  border-radius:5px;
+  height: 50px;
+  text-wrap:wrap;
+  margin:3px;
+  padding:10px;
 }
 
 h2 {
@@ -130,8 +144,6 @@ p {
   padding: 2px;
   margin-top: 30px;
 }
-
-
 
 row {
   margin-left: 100px;

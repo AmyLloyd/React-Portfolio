@@ -18,14 +18,14 @@ const projectList = [
     appLink:"https://loquacious-sorbet-06e30f.netlify.app/",
     developerPractice: 'Skills demonstrated: ReactJS'
   },
-  {
-    id:3,
-    title: "Uquiz",
-    image: "/assets/uquiz-screenshot.png",
-    gitHubLink: "https://github.com/danield001/UQuiz",
-    appLink: "https://uquiz-app-89fe7511a64b.herokuapp.com/",
-    developerPractice: "Skills demonstrated: MVC and working in teams"
-  },
+  // {
+  //   id:3,
+  //   title: "Uquiz",
+  //   image: "/assets/uquiz-screenshot.png",
+  //   gitHubLink: "https://github.com/danield001/UQuiz",
+  //   appLink: "https://uquiz-app-89fe7511a64b.herokuapp.com/",
+  //   developerPractice: "Skills demonstrated: MVC and working in teams"
+  // },
   {
     id: 4,
     title: "Next-best Tech Blog",

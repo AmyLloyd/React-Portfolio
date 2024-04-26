@@ -1,4 +1,4 @@
-/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)*/
+/* Custom properties are accessed using the CSS var() function (e.g., color: var(--primary-color);)
 :root {
     --dark-bg-color: #2d2937ea;
     --medium-bg-color: #625f77;
@@ -10,10 +10,10 @@
     --nav-bg:rgb(248, 248, 248);
     --button-bg: #eb9c2dd1;
     --transparent-orange: #eb9c2d7e;
-  }
+  } */
 
 .active {
-    background-color: var(--feature-color)!important;
+    background-color: var(--feature-color2)!important;
 }
 
 .navbar-bg {
