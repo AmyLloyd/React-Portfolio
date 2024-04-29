@@ -103,7 +103,6 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   color:white;
-
 }
 
 h1, h2, h3, h4 {
@@ -129,6 +128,14 @@ p {
   margin-top: 2rem;
   font-size: medium;
 }
+
+li {
+  font-family:'Montserrat', serif;
+  color: var(--text-color);
+  text-align:left;
+  font-size: medium;
+}
+
 
 .feature-button {
   background-color: var(--feature-color);
@@ -159,4 +166,8 @@ content-container {
   font-size:x-large;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 2px #000000;
+}
+
+.display-block {
+  display:block!important;
 }

@@ -94,7 +94,6 @@ function Form() {
                 <div >
 
                     <input
-                  
                         name="name"
                         onBlur={handleChange}
                         type="input"
