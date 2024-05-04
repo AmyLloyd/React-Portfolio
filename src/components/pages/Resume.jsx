@@ -3,6 +3,7 @@ import { useRef } from 'react';
 //libraries needed for downloading PDF
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import { Link } from 'react-router-dom';
 
 export default function Resume() {
 
@@ -37,23 +38,12 @@ export default function Resume() {
               </ul>
             </div>
           </div>
-          <div className="text-start mt-4">
-              <a className="feature-button" href="https://drive.google.com/file/d/1W_o1oHIsvWcaMY4nr01dRyCl6PKdpdNG/view?usp=sharing" target='_blank'>View resume</a>
-            </div>   
+          <div className='mt-3'>
+                    <button className='feature-button'>
+                        <Link to="/resume-pdf">Download Resume</Link>
+                    </button>
+          </div>
         </div>
-        {/* <!--
-        Courtesy of: https://pdfjs.express/blog/how-embed-pdf-in-html-website Place the following <div> element where you want the PDF to be displayed in your website. You can change the size using the width and height attributes.
-    --> */}
-    <div>
-              <iframe
-          src='/assets/AMY_LLOYD_2024_Resume.pdf'
-          width="400"
-          height="678"
-        >
-        <p>This browser does not support PDF!</p>
-        </iframe>
-    </div>
-
       </>
     );
   }
