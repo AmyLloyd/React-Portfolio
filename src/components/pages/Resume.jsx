@@ -1,8 +1,4 @@
 import React from 'react';
-import { useRef } from 'react';
-//libraries needed for downloading PDF
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
 import { Link } from 'react-router-dom';
 
 export default function Resume() {
