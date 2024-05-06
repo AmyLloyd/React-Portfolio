@@ -6,6 +6,7 @@ import {
     FiLinkedin
   } from "react-icons/fi";
 
+import { FaRegCopyright } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa6";
 
 import './styles.css';
@@ -49,7 +50,12 @@ import './styles.css';
                       ))}
                       </ul>
                   </div>
+                  <div>
+                    <FaRegCopyright />
+                    <a>Amy Lloyd 2024</a>
+                  </div>
                 </div>
+
             </div>
       </footer>  
     );

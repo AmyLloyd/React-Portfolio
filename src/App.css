@@ -136,6 +136,10 @@ li {
   font-size: medium;
 }
 
+ul {
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
 
 .feature-button {
   background-color: var(--feature-color);
