@@ -1,9 +1,23 @@
 .css-card {
     background-color:white;
-    
     box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.2), 0 6px 20px 0 rgba(239, 235, 235, 0.19);
     padding: 0!important;
     border: none;
 };
 
+.project-title {
+    display:flex!important;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center; /* Vertically center items */
+}
 
+.github-logo {
+    display: flex;
+}
+
+.card-title {
+    color: var(--secondary-text-color);
+    display: flex;
+}

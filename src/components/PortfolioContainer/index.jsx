@@ -36,7 +36,7 @@ const projectList = [
   },
   {
     id: 5,
-    title: "Keep your words- JATE text editor",
+    title: "Text editor",
     image: "/assets/jate.png",
     gitHubLink: 'https://github.com/AmyLloyd/keep-your-words',
     appLink: 'https://keep-your-words.onrender.com/',
@@ -44,7 +44,7 @@ const projectList = [
   },
   {
     id: 6,
-    title: "Quick get that down! Notetaker app",
+    title: "Notetaker app",
     image: "/assets/note-taker-app.png",
     gitHubLink: "https://github.com/AmyLloyd/quick-get-that-down",
     appLink: "https://stormy-escarpment-29702-726705b51eaa.herokuapp.com/",

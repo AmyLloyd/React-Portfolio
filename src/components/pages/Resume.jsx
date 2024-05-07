@@ -11,7 +11,7 @@ export default function Resume() {
           </div>
           <div className="row text-start mt-4"> 
             <div className="col-sm-6"> 
-              <h4> Front-end Proficiencies</h4>
+              <h3> Front-end Proficiencies</h3>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -23,7 +23,7 @@ export default function Resume() {
               </ul>
             </div>
             <div className="col-sm-6">  
-              <h4>Back-end Proficiencies</h4>
+              <h3>Back-end Proficiencies</h3>
               <ul>
                 <li>APIs</li>
                 <li>Node</li>
