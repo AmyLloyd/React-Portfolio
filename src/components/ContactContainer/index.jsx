@@ -45,14 +45,14 @@ function ContactContainer() {
                 <p>Want to work together?</p>
                 <p>Get in touch...</p>
             </Row>
+            <p><a href="mailto:amylloyd30@gmail.com">Send email</a></p>
 
             <Row >
                 {contactLinks.map((link) => (
-                    <Col className='btn contact-card'>
-                          
-                                <a href={link.url} key={link.id} >
+                    <Col className='btn contact-card' key={link.id}>
+                                <a href={link.url}>
                                     <i className='contact-icon'>{link.icon}</i>
-                                    <a className='contact-details'>{link.name}</a> 
+                                    <span className='contact-details'>{link.name}</span> 
                                 </a>
                            
                     </Col>
