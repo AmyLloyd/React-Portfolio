@@ -5,7 +5,7 @@ export default function Resume() {
 
     return (
       <>
-        <div className="container">   
+        <div className="container min-vh">   
           <div>   
               <h2>Resume</h2>
           </div>
