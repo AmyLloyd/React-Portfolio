@@ -39,39 +39,27 @@ const contactLinks = [
 
 function ContactContainer() {
     return (
-        <Container fluid='md'>
-            <Row className='pb-2rem'>
-                <Col>
-                    <h1>Contact</h1>
-                    <p>Want to work together?
-                    </p>
-                    <p>Get in touch...</p>
-                    <Row >
-                        {contactLinks.map((link) => (
-                            <Col
-                            href={link.url}
-                            target="_blank"
-                            key={link.id}
-                            className='contact-card'
-                            >
-                                <Col>
-                                    <i>{link.icon}</i>
-                                </Col>
-                                <Col>
-                                    <a>{link.name}</a>
-                                </Col>
-                                  
-                            </Col>
+        <Container fluid='md' className='min-vh'>
+            <Row>
+                <h1>Contact</h1>
+                <p>Want to work together?</p>
+                <p>Get in touch...</p>
+            </Row>
+            <p><a href="mailto:amylloyd30@gmail.com">Send email</a></p>
+
+            <Row >
+                {contactLinks.map((link) => (
+                    <Col className='btn contact-card' key={link.id}>
+                                <a href={link.url}>
+                                    <i className='contact-icon'>{link.icon}</i>
+                                    <span className='contact-details'>{link.name}</span> 
+                                </a>
+                           
+                    </Col>
                             
-
-                        ))}
-                    </Row>
-                   
-
                     
-                  
 
-                </Col>
+                ))}
             </Row>
         </Container>
     )
