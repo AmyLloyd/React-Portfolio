@@ -52,14 +52,14 @@ const projectList = [
   },
 
 
-  {
-    id:7,
-    title: "Shop-online",
-    image: "/assets/13-orm-homework-demo-01.gif",
-    gitHubLink: "https://github.com/AmyLloyd/shop-online",
-    appLink: "",
-    developerPractice: "Skills demonstrated: Object Relational Mapping"
-  }
+  // {
+  //   id:7,
+  //   title: "Shop-online",
+  //   image: "/assets/13-orm-homework-demo-01.gif",
+  //   gitHubLink: "https://github.com/AmyLloyd/shop-online",
+  //   appLink: "",
+  //   developerPractice: "Skills demonstrated: Object Relational Mapping"
+  // }
 ];
 
 function Portfolio() {
