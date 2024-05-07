@@ -6,23 +6,28 @@ import {
     FiLinkedin
   } from "react-icons/fi";
 
+import { FaRegCopyright } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa6";
-
-import './styles.css';
+import { HiOutlineMail } from "react-icons/hi";
 
   const socialLinks = [
     {
       id: 1,
+      icon:  <HiOutlineMail />,
+      url: "mailto:amylloyd30@gmail.com",
+    },
+    {
+      id: 2,
       icon: <FiGithub />,
       url: "https://github.com/AmyLloyd",
     },
     {
-      id: 2,
+      id: 3,
       icon: <FiLinkedin />,
       url: "https://www.linkedin.com/in/amy-lloyd-2a1028135/",
     },
     // {
-    //   id: 3,
+    //   id: 4,
     //   icon: <FaStackOverflow />,
     //   url: "https://stackoverflow.com/users/23352670/alloyd"
     // }
@@ -31,8 +36,8 @@ import './styles.css';
   
   const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="p-1 mt-1 mb-1">
+        <footer>
+            <div className="p-1 mt-1">
                 <div>
                 {/* Footer social links */}
                   <div className="text-center pb-1">
@@ -49,7 +54,12 @@ import './styles.css';
                       ))}
                       </ul>
                   </div>
+                  <div>
+                    <FaRegCopyright />
+                    <a>Amy Lloyd 2024</a>
+                  </div>
                 </div>
+
             </div>
       </footer>  
     );

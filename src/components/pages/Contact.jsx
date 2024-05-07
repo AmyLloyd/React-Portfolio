@@ -1,9 +1,10 @@
-import Form from '../ContactForm';
+import ContactContainer from '../ContactContainer';
+
 
 export default function Contact() {
     return (
       <>
-        <Form />        
+        <ContactContainer />
       </>
     );
 }

@@ -1,34 +1,35 @@
-import './styles.css'
+import React from 'react';
+import './styles.css';
 
-// Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function Project({ projectList }) {
     return (
         <div className="row">
-
             {/* Here we map over each projectList item and return a new array of elements that contains each project title */}
             {/* When using map you must provide a unique key attribute to each item. Ours is `project.id` */}
-
             {projectList.map((project) => (
                 <div className="col-sm-6" key={project.id}>
                     <div className="card css-card m-4 p-4">
-                        <img src={project.image} className="card-img-top" alt="App screenshot" />
+                        <a href={project.appLink}>
+                            <img src={project.image} className="card-img-top" alt="App screenshot" href='{project.appLink}' />
+                        </a>
                         <div className="card-body">
-                            <h3 className="card-title">{project.title}</h3>
-                            <p className="card-subtitle">{project.developerPractice}</p>
-                            <div>
-                                <a href={project.appLink} className="btn card-button">Open App</a>
-                                <a href={project.gitHubLink} className="btn card-button"> Open GitHub Repo
+                            <div className="project-title">
+                                <a className="card-title" href={project.appLink}>{project.title}
+                                
+                                </a>
+                                <a className='github-logo' href={project.gitHubLink}>
                                     <span>
-                                        <img src='../../assets/github-mark.png' className="logo"/>
+                                        <img src='../../assets/github-mark.png' className="logo" alt="GitHub logo" />
                                     </span>
                                 </a>
                             </div>
+                            <p className="card-subtitle">{project.developerPractice}</p>
                         </div>
                     </div>
                 </div>
-            ))};
+            ))}
         </div>
     );
-  }
-  
-  export default Project;
+}
+
+export default Project;

@@ -1,0 +1,14 @@
+.pdf-container {
+   margin-top:-30px;
+   margin-left: -0.5rem;
+   margin-right: -0.5rem;
+   min-height: 100vh;
+}
+
+#pdf-viewer {
+    width:100vw;
+    height:800px;
+}
+#document {
+    width:100%;
+}

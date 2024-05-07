@@ -12,6 +12,7 @@ import PortfolioPage from './components/pages/Portfolio.jsx';
 import ContactPage from './components/pages/Contact.jsx';
 import ResumePage from './components/pages/Resume.jsx';
 import ErrorPage from './components/pages/Error.jsx';
+import ResumePdf from './components/pages/ResumePdf';
 
 //Define the routes and which components respond to which URL
 const router = createBrowserRouter([
@@ -29,13 +30,17 @@ const router = createBrowserRouter([
           path: 'portfolio',
           element: <PortfolioPage />,
         },
-        // {
-        //     path: 'contact',
-        //     element: <ContactPage />,
-        // },
+        {
+            path: 'contact',
+            element: <ContactPage />,
+        },
         {
             path: 'resume',
             element: <ResumePage />
+        },
+        {
+          path: 'resume-pdf',
+          element: <ResumePdf />,
         }
       ],
     },
