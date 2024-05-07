@@ -9,29 +9,66 @@ import {
 
 import { HiOutlineMail } from "react-icons/hi";
 
+const contactLinks = [
+    {
+        id: 1,
+        icon:  <HiOutlineMail />,
+        url: "mailto:amylloyd30@gmail.com",
+        name: "amylloyd30@gmail.com"
+
+    },
+    {
+        id: 2,
+        icon: <FiLinkedin />,
+        url: "https://www.linkedin.com/in/amy-lloyd-2a1028135/",
+        name:"LinkedIn"
+    },
+    {
+        id: 3,
+        icon: <FiGithub />,
+        url: "https://github.com/AmyLloyd",
+        name: "Github"
+    },
+    // {
+    //   id: 4,
+    //   icon: <FaStackOverflow />,
+    //   url: "https://stackoverflow.com/users/23352670/alloyd"
+    // }
+
+  ];
+
 function ContactContainer() {
     return (
-        <Container fluid='md' row-col-2>
+        <Container fluid='md'>
             <Row className='pb-2rem'>
-                <Col med={7} className='ps-3 pe-3'>
+                <Col>
                     <h1>Contact</h1>
                     <p>Want to work together?
                     </p>
                     <p>Get in touch...</p>
-                    <ul >
-                        <div>
-                            <HiOutlineMail />
-                            <a href='mailto:amylloyd30@gmail.com'> amylloyd30@gmail.com</a>
-                        </div>
-                        <div>
-                            <FiLinkedin />
-                            <a href='https://www.linkedin.com/in/amy-lloyd30/'>LinkedIn</a>
-                        </div>
-                        <div>
-                            <FiGithub />
-                            <a href='https://github.com/AmyLloyd'>/AmyLloyd</a>  
-                        </div>
-                    </ul>
+                    <Row >
+                        {contactLinks.map((link) => (
+                            <Col
+                            href={link.url}
+                            target="_blank"
+                            key={link.id}
+                            className='contact-card'
+                            >
+                                <Col>
+                                    <i>{link.icon}</i>
+                                </Col>
+                                <Col>
+                                    <a>{link.name}</a>
+                                </Col>
+                                  
+                            </Col>
+                            
+
+                        ))}
+                    </Row>
+                   
+
+                    
                   
 
                 </Col>
