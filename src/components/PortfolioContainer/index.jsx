@@ -50,6 +50,15 @@ const projectList = [
     appLink: "https://stormy-escarpment-29702-726705b51eaa.herokuapp.com/",
     developerPractice: 'Skills demonstrated: express.js server and promises'
   },
+  {
+    id: 7,
+    title: "weather-dashboard",
+    image: "/assets/weather_dashboard_search_results.png",
+    gitHubLink: "https://AmyLloyd/weather-dashboard",
+    appLink: "https://amylloyd.github.io/weather-dashboard/",
+    developerPractice: 'REST API calls, Bootstrap, jQuery',
+  }
+
 
 
   // {
