@@ -10,10 +10,6 @@ function AboutContainer() {
   return (
     <Container fluid="md" row-col-2>
       <Row className="align-items-center pb-2rem">
-        {/* <Col col-sm-6 col-md-6 col-lg-4>
-            <img className="css-img mx-auto" src="/assets/headshot-filmstyle.jpg" alt="Headshot of 40 year old woman with brown hair and subtly smiling at the camera" />
-        </Col> */}
-      
         <Col md={7} className="ps-3 pe-3">
             <div className='mt-2 pt-2 ps-3 pe-3'>
             <h1>Hi! I'm Amy</h1>
@@ -24,17 +20,12 @@ function AboutContainer() {
                 <p>Let's turn great ideas into reality!</p>
             </div>
         </Col> 
-        <Col md={4} className='me-2 mt-2 pt-2' >
+        <Col md={4} className='mt-2 pt-2' >
             <div>
-                <div>
-                    <img src='./assets/Connection_square.png' alt='a visual showing green and blue connecting lines on a dark grey background' width="200" height="200"/>
-                </div>
-                <div className='mt-3'>
-                    <button className='feature-button'>
+                    <img src='./assets/Amy_Github_flip.jpg' alt='a visual showing green and blue connecting lines on a dark grey background' className="feature-photo"/>
+                    <button className='feature-button sticky-button display-block'>
                         <Link to="/portfolio">Check out my Portfolio!</Link>
                     </button>
-                </div>
-
             </div>
         </Col>
       </Row>
