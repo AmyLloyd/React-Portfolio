@@ -5,7 +5,7 @@ function Project({ projectList }) {
     return (
         <div className="row">
             {projectList.map((project) => (
-                <div className="col-sm-6" key={project.id}>
+                <div className="col-md-6" key={project.id}>
                     <div className="card css-card m-4 p-4">
                         <a href={project.appLink}>
                             <img src={project.image} className="card-img-top" alt="App screenshot" href='{project.appLink}' />
