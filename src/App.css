@@ -174,9 +174,9 @@ content-container {
   background-color: var(--feature-color2);
   border: 1rem;
   border-color: var(--feature-color2);
-  border-radius:100px;
+  border-radius:30px;
   border-style:solid;
-  margin: 2rem;
+  margin: 1rem;
   min-height:100px;
   padding: 0rem 1rem;
   color: var(--text-color);
