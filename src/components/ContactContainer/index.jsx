@@ -28,25 +28,18 @@ const contactLinks = [
         icon: <FiGithub />,
         url: "https://github.com/AmyLloyd",
         name: "Github"
-    },
-    // {
-    //   id: 4,
-    //   icon: <FaStackOverflow />,
-    //   url: "https://stackoverflow.com/users/23352670/alloyd"
-    // }
-
+    }
   ];
 
 function ContactContainer() {
     return (
         <Container fluid='md' className='min-vh'>
             <Row>
-                <h1>Contact</h1>
-                <p>Want to work together?</p>
-                <p>Get in touch...</p>
+                <div className='mt-2 pt-2 ps-3 pe-3 mb-4'>
+                    <h1>Contact</h1>
+                    <p>Want to work together? Here's the ways to get in touch.</p>
+                </div>
             </Row>
-            <p><a href="mailto:amylloyd30@gmail.com">Send email</a></p>
-
             <Row >
                 {contactLinks.map((link) => (
                     <Col className='btn contact-card' key={link.id}>
@@ -54,11 +47,7 @@ function ContactContainer() {
                                     <i className='contact-icon'>{link.icon}</i>
                                     <span className='contact-details'>{link.name}</span> 
                                 </a>
-                           
                     </Col>
-                            
-                    
-
                 ))}
             </Row>
         </Container>

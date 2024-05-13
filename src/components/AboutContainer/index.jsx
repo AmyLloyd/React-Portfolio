@@ -15,12 +15,13 @@ function AboutContainer() {
         </Col> */}
       
         <Col md={7} className="ps-3 pe-3">
-            <div className='mt-2 pt-2 ms-3 ps-3 pe-3'>
+            <div className='mt-2 pt-2 ps-3 pe-3'>
             <h1>Hi! I'm Amy</h1>
-                <p className='mt-1'> And I'm a junior full-stack developer with fast-growing skills</p>
-                <p> <span className="word-emphasis">Creator</span> who enjoys being involved in a project from its inception to completion</p>
-                <p> <span className="word-emphasis">Thinker</span> who loves using problem solving and creativity to meet the design needs of clients</p>
-                <p> <span className="word-emphasis">Team player</span> who communicates well with colleagues and clients.</p>
+                <p className="mt-1">I'm a junior Full Stack Web Developer who loves getting involved in projects from start to finish.</p>
+                <p className="mt-1">As a problem solver, I strive to meet clients' design needs with creativity and ingenuity.</p>
+                <p className="mt-1">With a Graduate Certificate of Education in Innovation and Change from Torrens University, I'm committed to continuous learning and improvement.</p>
+                <p className="mt-1">Collaboration is key to my approach—I thrive in team settings, where collective efforts lead to exceptional results. </p>
+                <p>Let's turn great ideas into reality!</p>
             </div>
         </Col> 
         <Col md={4} className='me-2 mt-2 pt-2' >

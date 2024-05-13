@@ -58,17 +58,6 @@ const projectList = [
     appLink: "https://amylloyd.github.io/weather-dashboard/",
     developerPractice: 'REST API calls, Bootstrap, jQuery',
   }
-
-
-
-  // {
-  //   id:7,
-  //   title: "Shop-online",
-  //   image: "/assets/13-orm-homework-demo-01.gif",
-  //   gitHubLink: "https://github.com/AmyLloyd/shop-online",
-  //   appLink: "",
-  //   developerPractice: "Skills demonstrated: Object Relational Mapping"
-  // }
 ];
 
 function Portfolio() {
