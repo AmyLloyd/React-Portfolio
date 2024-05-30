@@ -13,6 +13,7 @@ import ContactPage from './components/pages/Contact.jsx';
 import ResumePage from './components/pages/Resume.jsx';
 import ErrorPage from './components/pages/Error.jsx';
 import ResumePdf from './components/pages/ResumePdf';
+import GitHubRedirect from './components/pages/GitHubRedirect.jsx';
 
 //Define the routes and which components respond to which URL
 const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
         {
           path: 'resume-pdf',
           element: <ResumePdf />,
+        },
+        {
+          path: 'gitHub-redirect',
+          element: <GitHubRedirect />
         }
       ],
     },

@@ -1,0 +1,9 @@
+a {
+    color:var(--text-color);
+    text-decoration:none;
+    font-size: medium;
+}
+
+span {
+    text-decoration:underline;
+}
