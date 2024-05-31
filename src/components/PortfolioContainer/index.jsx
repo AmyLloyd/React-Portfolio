@@ -29,7 +29,7 @@ const projectList = [
   {
     id:4,
     title: "Dementia Prevention Solutions website",
-    image: "/assets/dementia-prevention-website.png",
+    image: "../../assets/dementia-prevention-website.png",
     gitHubLink: "gitHub-redirect",
     appLink: "https://dementiapreventionsolutions.org/",
     developerPractice: "Skills demonstrated: WordPress and collaboration"
