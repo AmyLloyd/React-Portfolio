@@ -8,14 +8,13 @@ function Project({ projectList }) {
                 <div className="col-md-6" key={project.id}>
                     <div className="card css-card m-4 p-4">
                         <a href={project.appLink}>
-                            <img src={project.image} className="card-img-top" alt="App screenshot" href='{project.appLink}' />
+                            <img src={project.image} className="card-img-top" alt="App screenshot" href='{project.appLink}' target="_blank" rel="noopener noreferrer" />
                         </a>
                         <div className="card-body">
                             <div className="project-title">
-                                <a className="card-title" href={project.appLink}>{project.title}
-                                
+                                <a className="card-title" href={project.appLink} target="_blank" rel="noopener noreferrer">{project.title}                             
                                 </a>
-                                <a className='github-logo' href={project.gitHubLink}>
+                                <a className='github-logo' href={project.gitHubLink} target="_blank" rel="noopener noreferrer">
                                     <span>
                                         <img src='../../assets/github-mark.png' className="logo" alt="GitHub logo" />
                                     </span>
