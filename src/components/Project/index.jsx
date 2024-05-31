@@ -7,8 +7,8 @@ function Project({ projectList }) {
             {projectList.map((project) => (
                 <div className="col-md-6" key={project.id}>
                     <div className="card css-card m-4 p-4">
-                        <a href={project.appLink}>
-                            <img src={project.image} className="card-img-top" alt="App screenshot" href='{project.appLink}' target="_blank" rel="noopener noreferrer" />
+                        <a href={project.appLink} target="_blank" rel="noopener noreferrer">
+                            <img src={project.image} className="card-img-top" alt="App screenshot" />
                         </a>
                         <div className="card-body">
                             <div className="project-title">
