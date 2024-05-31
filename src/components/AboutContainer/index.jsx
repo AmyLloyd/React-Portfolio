@@ -8,7 +8,7 @@ import './styles.css'
 
 function AboutContainer() {
   return (
-    <Container fluid="md" row-col-2>
+    <Container fluid="md" row-col-2 className='min-vh'>
       <Row className="align-items-center pb-2rem">
         <Col md={7} className="ps-3 pe-3">
             <div className='mt-2 pt-2 ps-3 pe-3'>
