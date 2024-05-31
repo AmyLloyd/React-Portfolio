@@ -8,7 +8,7 @@ export default function ResumeContainer() {
 
     return (
       <div className='pdf-container'>
-          <iframe id='pdf-viewer' src='/assets/AMY_LLOYD_2024_Resume.pdf'>
+          <iframe id='pdf-viewer' src='/assets/amy_lloyd_resume_2024.pdf'>
             <p>This browser does not support PDF!</p>
           </iframe>
       </div>

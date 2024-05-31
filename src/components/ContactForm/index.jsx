@@ -36,41 +36,6 @@ function Form() {
         }
       };
 
-    // const handleInputChange = (e) => {
-    //     e.preventDefault();
-       
-    //     const { target } = e;
-    //     const inputType = target.name;
-    //     const inputValue = target.value;
-
-
-        
-           
-    //     if(inputType === 'email') {
-    //         if(!validateEmail(inputValue)) {
-
-    //             setErrorMessage('Enter a valid email using @');
-                
-    //         } else if (!email || !message || !name) {
-    //             setErrorMessage('All fields must be complete');
-                
-    //         } else {            
-    //         setEmail(inputValue)};
-    //     } else if (inputType === 'name') {
-    //         if (!email || !message || !name) {
-    //         setErrorMessage('All fields must be complete');
-    //         } 
-    //         else {
-    //         setName(inputValue)};
-    //     } else{
-    //         if (!email || !message || !name) {
-    //         setErrorMessage('All fields must be complete');
-    //         } 
-    //         else {
-    //         setMessage(inputValue)};
-    //     };
-    // };
-
     const handleFormSubmit = (e) => {
         e.preventDefault();
 

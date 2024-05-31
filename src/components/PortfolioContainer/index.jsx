@@ -13,7 +13,7 @@ const projectList = [
   {
     id:2,
     title: "Portfolio",
-    image: "/assets/Portfolio-screenshot.png",
+    image: "/assets/portfolio-screenshot.png",
     gitHubLink: "https://github.com/AmyLloyd/react-portfolio",
     appLink:"https://loquacious-sorbet-06e30f.netlify.app/",
     developerPractice: 'Skills demonstrated: ReactJS'
@@ -22,15 +22,15 @@ const projectList = [
     id:3,
     title: "Uquiz",
     image: "/assets/uquiz-screenshot.png",
-    gitHubLink: "https://github.com/danield001/UQuiz",
+    gitHubLink: "https://github.com/AmyLloyd/UQuiz1.1",
     appLink: "https://uquiz-app-89fe7511a64b.herokuapp.com/",
     developerPractice: "Skills demonstrated: MVC and working in teams"
   },
   {
     id:4,
     title: "Dementia Prevention Solutions website",
-    image: "../../assets/dementia-prevention-website.png",
-    gitHubLink: "gitHub-redirect",
+    image: "/assets/dementia-prevention-website.png",
+    gitHubLink: "/gitHub-redirect",
     appLink: "https://dementiapreventionsolutions.org/",
     developerPractice: "Skills demonstrated: WordPress and collaboration"
   },
