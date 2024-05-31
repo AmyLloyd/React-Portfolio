@@ -17,7 +17,7 @@ function RedirectContainer() {
             </div>
             <div className='mt-4 pt-2 ps-3 pe-3'>
                 <p className="mt-1">Sorry there's no access to a GitHub respository for this project. </p>
-                <p className="mt-1">This app was the result of a collaborative team effort at one of the <span><a href='https://48in48.org/'>48in48</a></span> volunteer build events.
+                <p className="mt-1">This app was the result of a collaborative team effort at one of the <span><a href='https://48in48.org/' target='_blank' rel="noopener noreferrer">48in48</a></span> volunteer build events.
                     So there's no GitHub repository available.
                 </p>
                
