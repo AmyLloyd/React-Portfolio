@@ -22,7 +22,7 @@ function AboutContainer() {
         </Col> 
         <Col md={4} className='mt-2 pt-2' >
             <div>
-                    <img src='./assets/Amy_Github_flip.jpg' alt='a visual showing green and blue connecting lines on a dark grey background' className="feature-photo"/>
+                    <img src='./assets/amy_github_flip.jpg' alt='a visual showing green and blue connecting lines on a dark grey background' className="feature-photo"/>
                     <button className='feature-button sticky-button display-block'>
                         <Link to="/portfolio">Check out my Portfolio!</Link>
                     </button>
