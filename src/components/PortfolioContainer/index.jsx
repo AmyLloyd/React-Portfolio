@@ -23,7 +23,7 @@ const projectList = [
     title: "Uquiz",
     image: "/assets/uquiz-screenshot.png",
     gitHubLink: "https://github.com/AmyLloyd/UQuiz1.1",
-    appLink: "https://uquiz-app-89fe7511a64b.herokuapp.com/",
+    appLink: "https://enigmatic-anchorage-31363-162a45e83054.herokuapp.com/",
     developerPractice: "Skills demonstrated: MVC and working in teams"
   },
   {
