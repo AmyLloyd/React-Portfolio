@@ -13,7 +13,7 @@
   } */
 
 .active {
-    background-color: var(--feature-color2)!important;
+    color: var(--feature-color2)!important;
 }
 
 .navbar-bg {

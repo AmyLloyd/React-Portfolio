@@ -28,6 +28,14 @@ const projectList = [
   },
   {
     id:4,
+    title: "Project Tomorrow",
+    image: "/assets/Project Tomorrow.png",
+    gitHubLink: "/gitHub-redirect",
+    appLink: "/gitHub-redirect",
+    developerPractice: "Skills demonstrated: WordPress, BeaverBuilder, responsive behaviour and collaboration "
+  },
+  {
+    id:5,
     title: "Dementia Prevention Solutions website",
     image: "/assets/dementia-prevention-website.png",
     gitHubLink: "/gitHub-redirect",
@@ -35,7 +43,7 @@ const projectList = [
     developerPractice: "Skills demonstrated: WordPress and collaboration"
   },
   {
-    id: 5,
+    id: 6,
     title: "Next-best Tech Blog",
     image: "/assets/next-best-tech-blog.png",
     gitHubLink: 'https://github.com/AmyLloyd/next-best',
@@ -43,7 +51,7 @@ const projectList = [
     developerPractice: 'Skills demonstrated: MVC'
   },
   {
-    id: 6,
+    id: 7,
     title: "Text editor",
     image: "/assets/jate.png",
     gitHubLink: 'https://github.com/AmyLloyd/keep-your-words',
@@ -51,7 +59,7 @@ const projectList = [
     developerPractice: 'Skills demonstrated: PWA using IndexedDB'
   },
   {
-    id: 7,
+    id: 8,
     title: "Notetaker app",
     image: "/assets/note-taker-app.png",
     gitHubLink: "https://github.com/AmyLloyd/quick-get-that-down",
@@ -59,7 +67,7 @@ const projectList = [
     developerPractice: 'Skills demonstrated: express.js server and promises'
   },
   {
-    id: 8,
+    id: 9,
     title: "weather-dashboard",
     image: "/assets/weather_dashboard_search_results.png",
     gitHubLink: "https://AmyLloyd/weather-dashboard",

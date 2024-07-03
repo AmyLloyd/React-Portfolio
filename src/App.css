@@ -111,8 +111,8 @@ h4 {
 }
 
 h1 {
-  font-family:'Playfair display', sans-serif;
-  margin-top:2rem;
+  font-family:'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2rem;
   margin-bottom:2rem;
   color:white;
 }
@@ -129,19 +129,20 @@ p {
   font-size: medium;
 }
 
+
+
 li {
   font-family:'Montserrat', serif;
   color: var(--text-color);
   text-align:left;
-  font-size: medium;
+  font-size: small;
 }
+
 
 ul {
   color: var(--text-color);
-  font-size: 1.5rem;
+  font-size:small;
 }
-
-
 
 .css-img {
   min-width: 30%;
@@ -240,4 +241,33 @@ i:hover {
   position:relative!important;
   left:120px;
   bottom:20px;  
+}
+
+.carousel-image {
+  max-height:250px;
+  background-color: transparent;
+  object-fit:contain;
+  border: 3px solid white;
+
+}
+.carousel-caption {
+
+  color:#2d2c2c;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  bottom:0rem;
+  
+}
+
+.carousel-indicators {
+  margin-bottom: -2rem;
+}
+
+.feature-icon {
+  max-width:100px;
+  max-height:100px;
+}
+
+.feature-label {
+  text-align:center;
 }
