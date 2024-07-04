@@ -34,7 +34,7 @@ function ContactContainer() {
     return (
         <Container className='min-vh'>
             <Row>
-                <div className='mt-2 pt-2 ps-3 pe-3 mb-4'>
+                <div className='mt-2 pt-2 ps-3 pe-3 mb-5'>
                     <h1>Contact</h1>
                     <p>Want to work together?</p>
                     <p className='mt-0'>Here's the ways to get in touch.</p>
