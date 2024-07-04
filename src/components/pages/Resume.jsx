@@ -10,7 +10,7 @@ export default function Resume() {
               <h1>Resume</h1>
               <div className="row text-start mt-4"> 
                 <div className="col-sm-6"> 
-                  <h3> Front-end Proficiencies</h3>
+                  <h3> Front-end skills</h3>
                   <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -22,7 +22,7 @@ export default function Resume() {
                   </ul>
                 </div>
                 <div className="col-sm-6">  
-                  <h3>Back-end Proficiencies</h3>
+                  <h3>Back-end skills</h3>
                   <ul>
                     <li>APIs</li>
                     <li>Node</li>
@@ -37,7 +37,10 @@ export default function Resume() {
           
           <div className='mt-3'>
                     <button className='feature-button'>
-                        <Link to="/resume-pdf">Download Resume</Link>
+                        <Link to="/resume-pdf">
+                        <span class="material-symbols-outlined">download</span>
+                        Resume
+                        </Link>
                     </button>
           </div>
         </div>

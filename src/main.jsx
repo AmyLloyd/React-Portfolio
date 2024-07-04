@@ -14,6 +14,7 @@ import ResumePage from './components/pages/Resume.jsx';
 import ErrorPage from './components/pages/Error.jsx';
 import ResumePdf from './components/pages/ResumePdf';
 import GitHubRedirect from './components/pages/GitHubRedirect.jsx';
+import WordPress from './components/pages/WordPress.jsx';
 
 //Define the routes and which components respond to which URL
 const router = createBrowserRouter([
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
         {
           path: 'gitHub-redirect',
           element: <GitHubRedirect />
+        },
+        {
+          path:'wordpress',
+          element: <WordPress />
         }
       ],
     },
