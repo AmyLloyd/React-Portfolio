@@ -31,7 +31,7 @@ const projectList = [
     title: "Project Tomorrow",
     image: "/assets/Project Tomorrow.png",
     gitHubLink: "/gitHub-redirect",
-    appLink: "/gitHub-redirect",
+    appLink: "/wordpress",
     developerPractice: "Skills demonstrated: WordPress, BeaverBuilder, responsive behaviour and collaboration "
   },
   {

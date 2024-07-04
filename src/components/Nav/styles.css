@@ -16,9 +16,9 @@
     color: var(--feature-color2)!important;
 }
 
-.navbar-bg {
+/* .navbar-bg {
     background-color: var(--nav-bg)!important;
-}
+} */
 
 .button-radius {
     border-radius: 5px;;
