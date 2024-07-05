@@ -38,7 +38,7 @@ export default function Resume() {
           <div className='mt-3'>
                     <button className='feature-button'>
                         <Link to="/resume-pdf">
-                        <span class="material-symbols-outlined">download</span>
+                        <span className="material-symbols-outlined">download</span>
                         Resume
                         </Link>
                     </button>
