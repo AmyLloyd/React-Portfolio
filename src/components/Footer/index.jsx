@@ -37,7 +37,7 @@ import { HiOutlineMail } from "react-icons/hi";
   const Footer = () => {
     return (
         <footer>
-            <div className="p-1 mt-1">
+            <div className="p-2 mt-2">
                 <div>
                 {/* Footer social links */}
                   <div className="text-center pb-1">
