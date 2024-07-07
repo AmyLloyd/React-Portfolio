@@ -4,8 +4,6 @@ import Col from 'react-bootstrap/Col';
 
 import ControlledCarousel from '../ControlledCarousel';
 
-import { Link } from 'react-router-dom';
-
 const wpProjectList = [
     { 
         id: 1,
@@ -39,7 +37,7 @@ function WordPressContainer() {
       
         <Container >
             {wpProjectList.map((project, idx) => (
-            <Row className='project-row  mb-5'>
+            <Row className='mb-5'>
                 <Row>
                     <Col md={8}>
                         <h2>{project.name}</h2>
@@ -53,7 +51,7 @@ function WordPressContainer() {
                 <Row>
                     <p>{project.summary}</p>
                 </Row>
-                <Row>
+                <Row mt-3>
                     <h3>Photo Gallery</h3>
                     <ControlledCarousel imageList={projectTomorrowImageList}/>
                 </Row>

@@ -5,7 +5,7 @@ export default function Resume() {
 
     return (
       <>
-        <div className="container min-vh">   
+        <div className="container min-vh min-content-width">   
           <div className='mt-2 pt-2 ps-3 pe-3'>
               <h1>Resume</h1>
               <div className="row text-start mt-4"> 
