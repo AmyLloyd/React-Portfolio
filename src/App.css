@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin-top: 20px;
   margin-bottom:0;
   padding-top: 2rem;
@@ -208,11 +207,6 @@ i:hover {
 
 .no-wrap {
   flex-wrap:nowrap;
-}
-
-.flex-wrap {
-  display:flex;
-  flex-wrap: wrap;
 }
 
 .project-title {
