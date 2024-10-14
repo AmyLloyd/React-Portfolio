@@ -1,9 +1,14 @@
 .css-card {
-    background-color:white;
-    box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.2), 0 6px 20px 0 rgba(239, 235, 235, 0.19);
+    box-shadow: 0px 8px 6px 2px rgba(0, 0, 0, 0.4);
     padding: 0!important;
     border: none;
-};
+    border-radius: 50px / 15px!important;
+    min-height:max-content;
+}
+    
+css-body {
+    background-color:white;
+}
 
 .project-title {
     display:flex!important;
@@ -14,10 +19,29 @@
 }
 
 .github-logo {
-    display: flex;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .card-title {
     color: var(--secondary-text-color);
-    display: flex;
+    font-weight: bold;
+    display: block;
+    margin:auto;
+    padding-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    display: block;
+    margin:auto;
+    padding-bottom: 0.5rem;
+}
+.img-fit {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;  
+    width: 100%;
+    height: auto;
+    object-fit: cover;  
 }
