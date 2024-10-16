@@ -105,11 +105,11 @@ h2 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   color:white;
-}
+} 
 
 h1, h2, h3 {
   color: var(--text-color);
-  text-align: left;  
+  /* text-align: left;   */
 }
 
 h4 {
@@ -124,9 +124,9 @@ h1 {
   text-shadow:1px 1px 10px var(--secondary-text-color);
 }
 
-h2, h3, h4 {
+/* h2, h3, h4 {
   font-family: 'Lato', serif;
-}
+} */
 
 p {
   font-family:'Montserrat', serif;
@@ -184,6 +184,12 @@ content-container {
   display:block!important;
 }
 
+.card-title {
+  color: var(--secondary-text-color);
+  display: block;
+  text-decoration:underline;
+  margin:auto;
+}
 .contact-card {
   background-color: var(--feature-color2);
   border: 3px;
@@ -219,23 +225,8 @@ i:hover {
   flex-wrap:nowrap;
 }
 
-.project-title {
-  display:flex!important;
-  flex-wrap:wrap;
-  flex-direction:row;
-  justify-content: space-between;
-  align-items:center; /* Vertically center items */
-}
-
 .github-logo {
   display: flex;
-}
-
-.card-title {
-  color: var(--secondary-text-color);
-  display:flex;
-  font-size:larger;
-  text-decoration: underline;
 }
 
 .min-vh {

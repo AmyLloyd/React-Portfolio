@@ -1,11 +1,10 @@
-.css-card {
+ .css-card {
     box-shadow: 0px 8px 6px 2px rgba(0, 0, 0, 0.4);
     padding: 0!important;
     border: none;
     border-radius: 50px / 15px!important;
     min-height:max-content;
 }
-    
 css-body {
     background-color:white;
 }
@@ -24,19 +23,12 @@ css-body {
     margin-right:auto;
 }
 
-.card-title {
-    color: var(--secondary-text-color);
-    font-weight: bold;
-    display: block;
-    margin:auto;
-    padding-bottom: 0.5rem;
-}
-
 .card-subtitle {
     display: block;
     margin:auto;
     padding-bottom: 0.5rem;
 }
+
 .img-fit {
     margin-left:auto;
     margin-right:auto;
