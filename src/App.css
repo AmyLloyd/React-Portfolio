@@ -25,6 +25,7 @@
   --button-bg1: #eb9c2dd1;
   --transparent-orange: #eb9c2d7e;
   --nav-bg:rgb(248, 247, 247);
+  --btn-text: black;
 }
 
 html,
@@ -88,12 +89,13 @@ footer {
 
 .feature-button {
   background-color:var(--feature-color2)!important;  
+  box-shadow: 10px 10px 20px var(--secondary-text-color);
   border:none;
-  color:var(--secondary-text-color);
-  font-size: small;
+  color:var(--btn-text);
+  font-size:small;
   border-radius:5px;
-  min-height: 40px;
-  width:150px;
+  min-height: 60px;
+  width:180px;
   text-wrap:wrap;
   margin:3px;
   padding:3px;
@@ -119,6 +121,7 @@ h1 {
   margin-top: 4rem;
   margin-bottom:2rem;
   color:white;
+  text-shadow:1px 1px 10px var(--secondary-text-color);
 }
 
 h2, h3, h4 {
@@ -130,7 +133,7 @@ p {
   color: var(--text-color);
   text-align:left;
   margin-top: 2rem;
-  font-size: medium;
+  font-size: large;
 }
 
 li {
@@ -138,6 +141,13 @@ li {
   color: var(--text-color);
   text-align:left;
   font-size:medium;
+}
+
+.link {
+  color:var(--text-color);
+  text-decoration:none;
+  text-shadow:1px 1px 4px #000000;
+  font-size:1.2rem
 }
 
 
@@ -233,10 +243,11 @@ i:hover {
 }
 
 .feature-photo {
-  width: 270px;
-  height: 270px;
-  border-radius: 180px;
-  margin-bottom: -40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 360px;
+  margin-bottom: -20px;
+  box-shadow: 10px 10px 20px 5px var(--secondary-text-color);
 }
 
 .sticky-button {
