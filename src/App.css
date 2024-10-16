@@ -25,11 +25,16 @@
   --button-bg1: #eb9c2dd1;
   --transparent-orange: #eb9c2d7e;
   --nav-bg:rgb(248, 247, 247);
+  --btn-text: black;
 }
 
 html,
 body {
   min-height: 100%;
+}
+
+.center-text {
+  text-align:center;
 }
 
 body {
@@ -77,6 +82,23 @@ footer {
   color: #888;
 }
 
+
+.title-1 {
+  border: #3feb8f;
+  border-width:medium;
+  border-bottom-style:solid;
+  text-align: center;
+  padding-bottom:1.5rem;
+}
+.section-1 {
+  background-color:white;
+  border-style:solid;
+  border-radius:5px;
+  border-color:transparent;
+  padding:2rem;
+  color:rgb(0, 0, 0)!important;
+}
+
 /* .card-button {
   background-color:var(--transparent-bg);
   border-color: var(--main-bg-color);
@@ -88,12 +110,13 @@ footer {
 
 .feature-button {
   background-color:var(--feature-color2)!important;  
+  box-shadow: 10px 10px 20px var(--secondary-text-color);
   border:none;
-  color:var(--secondary-text-color);
-  font-size: small;
+  color:var(--btn-text);
+  font-size:small;
   border-radius:5px;
-  min-height: 40px;
-  width:150px;
+  min-height: 60px;
+  width:180px;
   text-wrap:wrap;
   margin:3px;
   padding:3px;
@@ -102,12 +125,11 @@ footer {
 h2 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
-  color:white;
-}
+  color:black;
+} 
 
-h1, h2, h3 {
-  color: var(--text-color);
-  text-align: left;  
+h3 {
+  color:var(--text-color);
 }
 
 h4 {
@@ -119,18 +141,25 @@ h1 {
   margin-top: 4rem;
   margin-bottom:2rem;
   color:white;
+  text-shadow:1px 1px 10px var(--secondary-text-color);
 }
 
-h2, h3, h4 {
+/* h2, h3, h4 {
   font-family: 'Lato', serif;
-}
+} */
 
 p {
   font-family:'Montserrat', serif;
-  color: var(--text-color);
-  text-align:left;
   margin-top: 2rem;
-  font-size: medium;
+  font-size: large;
+}
+
+.align-left {
+  text-align:left;
+}
+
+.white-text {
+  color:var(--text-color);
 }
 
 li {
@@ -138,6 +167,13 @@ li {
   color: var(--text-color);
   text-align:left;
   font-size:medium;
+}
+
+.link {
+  color:var(--text-color);
+  text-decoration:none;
+  text-shadow:1px 1px 4px #000000;
+  font-size:1.2rem
 }
 
 
@@ -174,6 +210,12 @@ content-container {
   display:block!important;
 }
 
+.card-title {
+  color: var(--secondary-text-color);
+  display: block;
+  text-decoration:underline;
+  margin:auto;
+}
 .contact-card {
   background-color: var(--feature-color2);
   border: 3px;
@@ -209,23 +251,8 @@ i:hover {
   flex-wrap:nowrap;
 }
 
-.project-title {
-  display:flex!important;
-  flex-wrap:wrap;
-  flex-direction:row;
-  justify-content: space-between;
-  align-items:center; /* Vertically center items */
-}
-
 .github-logo {
   display: flex;
-}
-
-.card-title {
-  color: var(--secondary-text-color);
-  display:flex;
-  font-size:larger;
-  text-decoration: underline;
 }
 
 .min-vh {
@@ -233,10 +260,11 @@ i:hover {
 }
 
 .feature-photo {
-  width: 270px;
-  height: 270px;
-  border-radius: 180px;
-  margin-bottom: -40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 360px;
+  margin-bottom: -20px;
+  box-shadow: 10px 10px 20px 5px var(--secondary-text-color);
 }
 
 .sticky-button {
@@ -247,9 +275,12 @@ i:hover {
 
 .carousel-image {
   max-height:250px;
-  background-color: transparent;
+  min-height:200px;
+  background-color: black;
   object-fit:contain;
   border: 3px solid white;
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.735);
+  margin:3rem;
 
 }
 .carousel-caption {

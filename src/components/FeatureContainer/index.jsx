@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 
 function FeatureContainer() {
   return (
-    <Container row-col-2 mt-4>
-        <Row>
-            <h3>Features</h3>
+    <Container row-col-2 >
+        <Row className="mb-5 white-text">
             <Row>
+                <Col></Col>
                 <Col>
                     <div>
                         <img src="/assets/input_24dp_FILL0_wght400_GRAD0_opsz24.png" className="feature-icon" alt="input logo"/>
@@ -26,6 +26,7 @@ function FeatureContainer() {
                     </div>
                     <p className="feature-label">Responsive layout</p>
                 </Col>
+                <Col></Col>
             </Row>
         </Row>
 

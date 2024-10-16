@@ -11,11 +11,12 @@ function Project({ projectList }) {
                             <img src={project.image} className="card-img-top img-fit" alt="App screenshot" />
                         </a>
                         <div className="card-body">
-                            <div className="project-title">
-                                <a className="card-title" href={project.appLink} target="_blank" rel="noopener noreferrer">{project.title}                             
-                                </a>
-                            </div>
-                            <p className="card-subtitle text-center">{project.developerPractice}</p>
+                            <h2 className="project-title">
+                                    <a className="card-title" href={project.appLink}  target="_blank" rel="noopener noreferrer">{project.title}                             
+                                    </a>
+                            </h2>
+                            <h6 className="text-center text-muted">{project.developerPractice}</h6>
+                            <p className="card-text text-muted text-center">{project.summary}</p>
                             <a className='github-logo' href={project.gitHubLink} target="_blank" rel="noopener noreferrer">
                                     <span>
                                         <img src='../../assets/github-mark.png' className="logo" alt="GitHub logo" />
