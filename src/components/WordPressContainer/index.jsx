@@ -11,6 +11,12 @@ const wpProjectList = [
         date: "June 2024",
         summary: "Project Tomorrow provides training to young people to open up future pathways they may otherwise have missed out on. The website was developed with a team as a part of the 48in48 Social Justice Event 2024.",
 
+    }, 
+    {
+        id: 2,
+        name: "All In Together",
+        date: "October 2023",
+        summary: "All In Together provides a physical space and activities in order to build community togetherness."
     }
 ]
 

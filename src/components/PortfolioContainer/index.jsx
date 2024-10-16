@@ -40,6 +40,15 @@ const projectList = [
   },
   {
     id:5,
+    title: "All In Together",
+    image: "/assets/AllInTogether-homepage.png",
+    summary: "A website produced for a 48in48 volunteer event to showcase a NonProfit organisation.",
+    gitHubLink: "/gitHub-redirect",
+    appLink: "/wordpress",
+    developerPractice: "WordPress, BeaverBuilder, GravityForms, time-management and teamwork "
+  },
+  {
+    id:6,
     title: "Project Tomorrow",
     image: "/assets/project-tomorrow-homepage.png",
     summary: "A website produced for a 48in48 volunteer event to showcase a NonProfit organisation.",
@@ -48,7 +57,7 @@ const projectList = [
     developerPractice: "WordPress, BeaverBuilder, responsive behaviour and collaboration "
   },
   {
-    id:6,
+    id:7,
     title: "Dementia Prevention Solutions website",
     image: "/assets/dementia-solutions-homepage.png",
     summary: "A website built in a team of four to showcase a NonProfit organisation.",
@@ -57,7 +66,7 @@ const projectList = [
     developerPractice: "WordPress and collaboration"
   },
   {
-    id: 7,
+    id:8,
     title: "Next-best Tech Blog",
     image: "/assets/next-best-tech-blog-homepage.png",
     summary: "An early project where users are able to post their reviews of new tech.",
@@ -66,7 +75,7 @@ const projectList = [
     developerPractice: 'MVC'
   },
   {
-    id: 8,
+    id:9,
     title: "Text editor",
     image: "/assets/jate.png",
     summary: "A simple text editor.",
@@ -75,7 +84,7 @@ const projectList = [
     developerPractice: 'PWA using IndexedDB'
   },
   {
-    id: 9,
+    id: 10,
     title: "Notetaker app",
     image: "/assets/note-taker-app.png",
     summary: "A note taking app that allows users to record and keep their thoughts.",
@@ -84,7 +93,7 @@ const projectList = [
     developerPractice: 'Express.js server and promises'
   },
   {
-    id: 10,
+    id: 11,
     title: "weather-dashboard",
     image: "/assets/weather_dashboard_search_results.png",
     summary: "A weather app displaying current weather information.",
