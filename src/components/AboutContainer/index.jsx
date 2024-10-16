@@ -12,7 +12,7 @@ function AboutContainer() {
     <Container className='min-vh mt-5'>
       <Row className="align-items-center">
         <Col sm={12} md={6} xl={8} className="pe-3">
-            <div className=''>
+            <div className='white-text align-left'>
             <h1>Hi! I'm Amy</h1>
                 <p className="mt-1">I'm a Junior Full Stack Web Developer who loves getting involved in projects from start to finish.</p>
                 <p className="mt-1">As a problem solver, I strive to meet clients' design needs with creativity and ingenuity.</p>

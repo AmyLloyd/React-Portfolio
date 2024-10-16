@@ -71,27 +71,23 @@ const wpProjectList = [
 function WordPressContainer() {
     return (
       
-        <Container >
+        <Container className="mt-5">
             {wpProjectList.map((project, idx) => (
-            <Row className='mb-5'>
-                <Row>
-                    <Col md={8}>
+            <Row className='mb-5 section-1'>
+                <Col className="align-left" md={4}>
+                    <Col className="">
                         <h2>{project.name}</h2>
                     </Col>
-                    <Col md={1}>
-                    </Col>
-                    <Col md={3}>
+                    <Col>
                         <p>{project.date}</p>
                     </Col>
-                </Row>
-                <Row>
-                    <p>{project.summary}</p>
-                </Row>
-                <Row mt-3>
-                    <h3>Photo Gallery</h3>
+                    <Col>
+                        <p>{project.summary}</p>
+                    </Col>
+                </Col>
+                <Col md={8} mt-3>
                     <ControlledCarousel imageList={project.imageList}/>
-                  
-                </Row>
+                </Col>
             </Row>
         ))}
         </Container>
